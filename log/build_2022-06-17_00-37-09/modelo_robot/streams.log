@@ -1,0 +1,21 @@
+[0.650s] Invoking command in '/home/legacy/youtube_robot/src/modelo_robot': PYTHONPATH=/home/legacy/youtube_robot/install/modelo_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/modelo_robot build --build-base /home/legacy/youtube_robot/build/modelo_robot/build install --prefix /home/legacy/youtube_robot/install/modelo_robot --record /home/legacy/youtube_robot/build/modelo_robot/install.log --single-version-externally-managed
+[0.886s] running egg_info
+[0.886s] writing ../../build/modelo_robot/modelo_robot.egg-info/PKG-INFO
+[0.886s] writing dependency_links to ../../build/modelo_robot/modelo_robot.egg-info/dependency_links.txt
+[0.886s] writing entry points to ../../build/modelo_robot/modelo_robot.egg-info/entry_points.txt
+[0.887s] writing requirements to ../../build/modelo_robot/modelo_robot.egg-info/requires.txt
+[0.887s] writing top-level names to ../../build/modelo_robot/modelo_robot.egg-info/top_level.txt
+[0.918s] reading manifest file '../../build/modelo_robot/modelo_robot.egg-info/SOURCES.txt'
+[0.919s] writing manifest file '../../build/modelo_robot/modelo_robot.egg-info/SOURCES.txt'
+[0.919s] running build
+[0.919s] running build_py
+[0.920s] running install
+[0.920s] running install_lib
+[0.921s] running install_data
+[0.922s] copying urdf/Seguidor_linea_robot.urdf -> /home/legacy/youtube_robot/install/modelo_robot/share/modelo_robot/urdf
+[0.922s] running install_egg_info
+[0.924s] removing '/home/legacy/youtube_robot/install/modelo_robot/lib/python3.8/site-packages/modelo_robot-0.0.0-py3.8.egg-info' (and everything under it)
+[0.924s] Copying ../../build/modelo_robot/modelo_robot.egg-info to /home/legacy/youtube_robot/install/modelo_robot/lib/python3.8/site-packages/modelo_robot-0.0.0-py3.8.egg-info
+[0.925s] running install_scripts
+[0.940s] writing list of installed files to '/home/legacy/youtube_robot/build/modelo_robot/install.log'
+[0.957s] Invoked command in '/home/legacy/youtube_robot/src/modelo_robot' returned '0': PYTHONPATH=/home/legacy/youtube_robot/install/modelo_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/modelo_robot build --build-base /home/legacy/youtube_robot/build/modelo_robot/build install --prefix /home/legacy/youtube_robot/install/modelo_robot --record /home/legacy/youtube_robot/build/modelo_robot/install.log --single-version-externally-managed
