@@ -99,8 +99,8 @@ def generate_launch_description():
      
     return LaunchDescription([
     declare_use_sim_time_cmd,
+    rviz2,
     spawn,
-    #start_joint_state_publisher_cmd, 
     robot_state_publisher_node,
     gazebo
 ])
