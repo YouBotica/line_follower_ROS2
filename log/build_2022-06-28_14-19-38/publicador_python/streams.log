@@ -1,0 +1,37 @@
+[0.697s] Invoking command in '/home/legacy/youtube_robot/src/publicador_python': AMENT_PREFIX_PATH=/home/legacy/youtube_robot/install/modelo_robot:${AMENT_PREFIX_PATH} PYTHONPATH=/home/legacy/youtube_robot/install/publicador_python/lib/python3.8/site-packages:/home/legacy/youtube_robot/install/modelo_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/publicador_python build --build-base /home/legacy/youtube_robot/build/publicador_python/build install --prefix /home/legacy/youtube_robot/install/publicador_python --record /home/legacy/youtube_robot/build/publicador_python/install.log --single-version-externally-managed
+[0.938s] running egg_info
+[0.939s] creating ../../build/publicador_python/publicador_python.egg-info
+[0.939s] writing ../../build/publicador_python/publicador_python.egg-info/PKG-INFO
+[0.939s] writing dependency_links to ../../build/publicador_python/publicador_python.egg-info/dependency_links.txt
+[0.939s] writing entry points to ../../build/publicador_python/publicador_python.egg-info/entry_points.txt
+[0.939s] writing requirements to ../../build/publicador_python/publicador_python.egg-info/requires.txt
+[0.939s] writing top-level names to ../../build/publicador_python/publicador_python.egg-info/top_level.txt
+[0.941s] writing manifest file '../../build/publicador_python/publicador_python.egg-info/SOURCES.txt'
+[0.971s] reading manifest file '../../build/publicador_python/publicador_python.egg-info/SOURCES.txt'
+[0.972s] writing manifest file '../../build/publicador_python/publicador_python.egg-info/SOURCES.txt'
+[0.972s] running build
+[0.972s] running build_py
+[0.972s] creating /home/legacy/youtube_robot/build/publicador_python/build
+[0.972s] creating /home/legacy/youtube_robot/build/publicador_python/build/lib
+[0.972s] creating /home/legacy/youtube_robot/build/publicador_python/build/lib/publicador_python
+[0.973s] copying publicador_python/__init__.py -> /home/legacy/youtube_robot/build/publicador_python/build/lib/publicador_python
+[0.973s] copying publicador_python/publicador_cmd.py -> /home/legacy/youtube_robot/build/publicador_python/build/lib/publicador_python
+[0.973s] running install
+[0.973s] running install_lib
+[0.974s] creating /home/legacy/youtube_robot/install/publicador_python/lib/python3.8/site-packages/publicador_python
+[0.975s] copying /home/legacy/youtube_robot/build/publicador_python/build/lib/publicador_python/__init__.py -> /home/legacy/youtube_robot/install/publicador_python/lib/python3.8/site-packages/publicador_python
+[0.975s] copying /home/legacy/youtube_robot/build/publicador_python/build/lib/publicador_python/publicador_cmd.py -> /home/legacy/youtube_robot/install/publicador_python/lib/python3.8/site-packages/publicador_python
+[0.975s] byte-compiling /home/legacy/youtube_robot/install/publicador_python/lib/python3.8/site-packages/publicador_python/__init__.py to __init__.cpython-38.pyc
+[0.976s] byte-compiling /home/legacy/youtube_robot/install/publicador_python/lib/python3.8/site-packages/publicador_python/publicador_cmd.py to publicador_cmd.cpython-38.pyc
+[0.976s] running install_data
+[0.977s] creating /home/legacy/youtube_robot/install/publicador_python/share/ament_index
+[0.977s] creating /home/legacy/youtube_robot/install/publicador_python/share/ament_index/resource_index
+[0.977s] creating /home/legacy/youtube_robot/install/publicador_python/share/ament_index/resource_index/packages
+[0.977s] copying resource/publicador_python -> /home/legacy/youtube_robot/install/publicador_python/share/ament_index/resource_index/packages
+[0.977s] copying package.xml -> /home/legacy/youtube_robot/install/publicador_python/share/publicador_python
+[0.977s] running install_egg_info
+[0.979s] Copying ../../build/publicador_python/publicador_python.egg-info to /home/legacy/youtube_robot/install/publicador_python/lib/python3.8/site-packages/publicador_python-0.0.0-py3.8.egg-info
+[0.979s] running install_scripts
+[0.994s] Installing publicador_cmd script to /home/legacy/youtube_robot/install/publicador_python/lib/publicador_python
+[0.994s] writing list of installed files to '/home/legacy/youtube_robot/build/publicador_python/install.log'
+[1.013s] Invoked command in '/home/legacy/youtube_robot/src/publicador_python' returned '0': AMENT_PREFIX_PATH=/home/legacy/youtube_robot/install/modelo_robot:${AMENT_PREFIX_PATH} PYTHONPATH=/home/legacy/youtube_robot/install/publicador_python/lib/python3.8/site-packages:/home/legacy/youtube_robot/install/modelo_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/publicador_python build --build-base /home/legacy/youtube_robot/build/publicador_python/build install --prefix /home/legacy/youtube_robot/install/publicador_python --record /home/legacy/youtube_robot/build/publicador_python/install.log --single-version-externally-managed

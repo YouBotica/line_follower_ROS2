@@ -1,0 +1,25 @@
+[1.123s] Invoking command in '/home/legacy/youtube_robot/src/publicador_python': AMENT_PREFIX_PATH=/home/legacy/youtube_robot/install/modelo_robot:/home/legacy/youtube_robot/install/publicador_python:/opt/ros/foxy PYTHONPATH=/home/legacy/youtube_robot/install/publicador_python/lib/python3.8/site-packages:/home/legacy/youtube_robot/install/modelo_robot/lib/python3.8/site-packages:/home/legacy/youtube_robot/install/publicador_python/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/publicador_python build --build-base /home/legacy/youtube_robot/build/publicador_python/build install --prefix /home/legacy/youtube_robot/install/publicador_python --record /home/legacy/youtube_robot/build/publicador_python/install.log --single-version-externally-managed
+[1.492s] running egg_info
+[1.493s] writing ../../build/publicador_python/publicador_python.egg-info/PKG-INFO
+[1.493s] writing dependency_links to ../../build/publicador_python/publicador_python.egg-info/dependency_links.txt
+[1.493s] writing entry points to ../../build/publicador_python/publicador_python.egg-info/entry_points.txt
+[1.493s] writing requirements to ../../build/publicador_python/publicador_python.egg-info/requires.txt
+[1.493s] writing top-level names to ../../build/publicador_python/publicador_python.egg-info/top_level.txt
+[1.536s] reading manifest file '../../build/publicador_python/publicador_python.egg-info/SOURCES.txt'
+[1.537s] writing manifest file '../../build/publicador_python/publicador_python.egg-info/SOURCES.txt'
+[1.537s] running build
+[1.537s] running build_py
+[1.538s] copying publicador_python/subscriber_odom.py -> /home/legacy/youtube_robot/build/publicador_python/build/lib/publicador_python
+[1.538s] running install
+[1.539s] running install_lib
+[1.540s] copying /home/legacy/youtube_robot/build/publicador_python/build/lib/publicador_python/subscriber_odom.py -> /home/legacy/youtube_robot/install/publicador_python/lib/python3.8/site-packages/publicador_python
+[1.541s] byte-compiling /home/legacy/youtube_robot/install/publicador_python/lib/python3.8/site-packages/publicador_python/subscriber_odom.py to subscriber_odom.cpython-38.pyc
+[1.542s] running install_data
+[1.543s] running install_egg_info
+[1.545s] removing '/home/legacy/youtube_robot/install/publicador_python/lib/python3.8/site-packages/publicador_python-0.0.0-py3.8.egg-info' (and everything under it)
+[1.545s] Copying ../../build/publicador_python/publicador_python.egg-info to /home/legacy/youtube_robot/install/publicador_python/lib/python3.8/site-packages/publicador_python-0.0.0-py3.8.egg-info
+[1.546s] running install_scripts
+[1.570s] Installing publicador_cmd script to /home/legacy/youtube_robot/install/publicador_python/lib/publicador_python
+[1.570s] Installing subscriber_odom script to /home/legacy/youtube_robot/install/publicador_python/lib/publicador_python
+[1.571s] writing list of installed files to '/home/legacy/youtube_robot/build/publicador_python/install.log'
+[1.597s] Invoked command in '/home/legacy/youtube_robot/src/publicador_python' returned '0': AMENT_PREFIX_PATH=/home/legacy/youtube_robot/install/modelo_robot:/home/legacy/youtube_robot/install/publicador_python:/opt/ros/foxy PYTHONPATH=/home/legacy/youtube_robot/install/publicador_python/lib/python3.8/site-packages:/home/legacy/youtube_robot/install/modelo_robot/lib/python3.8/site-packages:/home/legacy/youtube_robot/install/publicador_python/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/publicador_python build --build-base /home/legacy/youtube_robot/build/publicador_python/build install --prefix /home/legacy/youtube_robot/install/publicador_python --record /home/legacy/youtube_robot/build/publicador_python/install.log --single-version-externally-managed

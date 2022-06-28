@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/publicador_python/publicador_python.egg-info/PKG-INFO
+../../build/publicador_python/publicador_python.egg-info/SOURCES.txt
+../../build/publicador_python/publicador_python.egg-info/dependency_links.txt
+../../build/publicador_python/publicador_python.egg-info/entry_points.txt
+../../build/publicador_python/publicador_python.egg-info/requires.txt
+../../build/publicador_python/publicador_python.egg-info/top_level.txt
+../../build/publicador_python/publicador_python.egg-info/zip-safe
+publicador_python/__init__.py
+publicador_python/publicador_cmd.py
+publicador_python/subscriber_odom.py
+resource/publicador_python
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

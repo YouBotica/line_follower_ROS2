@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'publicador_cmd = publicador_python.publicador_cmd:main',
+            'subscriber_odom = publicador_python.subscriber_odom:main',
         ],
     },
 )
