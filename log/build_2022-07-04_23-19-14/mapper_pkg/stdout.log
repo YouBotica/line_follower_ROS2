@@ -1,0 +1,46 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/legacy/youtube_robot/build/mapper_pkg
+-- Install configuration: ""
+-- Installing: /home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/launch
+-- Installing: /home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/launch/mapper.launch.py
+-- Installing: /home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/config
+-- Installing: /home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/config/slam_config.yaml
+-- Installing: /home/legacy/youtube_robot/install/mapper_pkg/share/ament_index/resource_index/package_run_dependencies/mapper_pkg
+-- Installing: /home/legacy/youtube_robot/install/mapper_pkg/share/ament_index/resource_index/parent_prefix_path/mapper_pkg
+-- Installing: /home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/environment/ament_prefix_path.dsv
+-- Installing: /home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/environment/path.sh
+-- Installing: /home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/environment/path.dsv
+-- Installing: /home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/local_setup.bash
+-- Installing: /home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/local_setup.sh
+-- Installing: /home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/local_setup.zsh
+-- Installing: /home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/local_setup.dsv
+-- Installing: /home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/package.dsv
+-- Installing: /home/legacy/youtube_robot/install/mapper_pkg/share/ament_index/resource_index/packages/mapper_pkg
+-- Installing: /home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/cmake/mapper_pkgConfig.cmake
+-- Installing: /home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/cmake/mapper_pkgConfig-version.cmake
+-- Installing: /home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/package.xml

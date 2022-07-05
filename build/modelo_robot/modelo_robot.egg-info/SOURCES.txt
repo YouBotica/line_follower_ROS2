@@ -7,6 +7,7 @@ setup.py
 ../../build/modelo_robot/modelo_robot.egg-info/requires.txt
 ../../build/modelo_robot/modelo_robot.egg-info/top_level.txt
 ../../build/modelo_robot/modelo_robot.egg-info/zip-safe
+config/ekf.yaml
 launch/display.launch.py
 launch/gazebo.launch.py
 meshes/Base_castor_link.STL

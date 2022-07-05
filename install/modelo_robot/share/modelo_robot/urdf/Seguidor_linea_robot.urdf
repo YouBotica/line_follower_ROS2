@@ -6,9 +6,9 @@
   name="Seguidor_linea_robot"-->
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="mobile_robot">
   
-  <!--link name="odom_link"/>
+  <!--link name="odom_frame"/>
   <joint name="odom_joint" type="fixed">
-    <parent link="odom_link" />
+    <parent link="odom_frame" />
     <child link = "base_link" />
     <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
   </joint-->
@@ -53,13 +53,12 @@
     </collision>
   </link>
 
-  <!--link name="world"/>
-  <joint name="world_joint" type="fixed">
-    <parent link="world" />
-    <child link = "base_link" />
-    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
-    package://modelo_robot/meshes/base_link.stl
-  </joint-->
+  <link name="base_link_ground"/>
+  <joint name="ground_base_joint" type="fixed">
+    <parent link="base_link" />
+    <child link = "base_link_ground" />
+    <origin xyz="0.0 0.0 -0.05" rpy="0.0 0.0 0.0" />
+  </joint>
 
   <gazebo reference="base_link">
     <mu1>200</mu1>
@@ -483,7 +482,7 @@
  
       <!-- When true, publish coordinate transform from odom to base_footprint -->
       <!-- I usually use the robot_localization package to publish this transform -->  
-      <publish_odom_tf>true</publish_odom_tf>
+      <publish_odom_tf>false</publish_odom_tf>
      
       <!-- When true, publish coordinate transform from base_link to the wheels -->
       <!-- The robot_state_publisher package is often used to publish this transform -->  

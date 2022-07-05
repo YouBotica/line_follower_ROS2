@@ -1,0 +1,17 @@
+/home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/launch/mapper.launch.py
+/home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/config/slam_config.yaml
+/home/legacy/youtube_robot/install/mapper_pkg/share/ament_index/resource_index/package_run_dependencies/mapper_pkg
+/home/legacy/youtube_robot/install/mapper_pkg/share/ament_index/resource_index/parent_prefix_path/mapper_pkg
+/home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/environment/ament_prefix_path.sh
+/home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/environment/ament_prefix_path.dsv
+/home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/environment/path.sh
+/home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/environment/path.dsv
+/home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/local_setup.bash
+/home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/local_setup.sh
+/home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/local_setup.zsh
+/home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/local_setup.dsv
+/home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/package.dsv
+/home/legacy/youtube_robot/install/mapper_pkg/share/ament_index/resource_index/packages/mapper_pkg
+/home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/cmake/mapper_pkgConfig.cmake
+/home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/cmake/mapper_pkgConfig-version.cmake
+/home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/package.xml

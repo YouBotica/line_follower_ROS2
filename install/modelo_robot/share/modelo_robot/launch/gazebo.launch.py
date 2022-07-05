@@ -95,6 +95,19 @@ def generate_launch_description():
         cmd=['gazebo', world_path, '--verbose', '-s', 'libgazebo_ros_factory.so', 
         '-s', 'libgazebo_ros_init.so'], output='screen',
         )
+    
+    robot_localization_node = Node(
+        package='robot_localization',
+        executable='ekf_node',
+        name='ekf_filter_node',
+        output='screen',
+        parameters=[os.path.join(pkg_share, 'config', 'ekf.yaml'), {'use_sim_time': use_sim_time}]
+    )
+
+    map_frame = ExecuteProcess(
+        cmd=['ros2', 'run', 'tf2_ros', 'static_transform_publisher', '-1.0', '-1.0', '0', '0', '0', '0', 'map'
+        , 'odom_link'], output='screen',
+        )
 
      
     return LaunchDescription([
@@ -102,5 +115,7 @@ def generate_launch_description():
     rviz2,
     spawn,
     robot_state_publisher_node,
+    robot_localization_node,
+    #map_frame,
     gazebo
 ])

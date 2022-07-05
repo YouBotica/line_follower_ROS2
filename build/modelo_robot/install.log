@@ -12,6 +12,7 @@
 /home/legacy/youtube_robot/install/modelo_robot/share/modelo_robot/meshes/Base_castor_link.STL
 /home/legacy/youtube_robot/install/modelo_robot/share/modelo_robot/worlds/museum.world
 /home/legacy/youtube_robot/install/modelo_robot/share/modelo_robot/worlds/world.world
+/home/legacy/youtube_robot/install/modelo_robot/share/modelo_robot/config/ekf.yaml
 /home/legacy/youtube_robot/install/modelo_robot/lib/python3.8/site-packages/modelo_robot-0.0.0-py3.8.egg-info/PKG-INFO
 /home/legacy/youtube_robot/install/modelo_robot/lib/python3.8/site-packages/modelo_robot-0.0.0-py3.8.egg-info/top_level.txt
 /home/legacy/youtube_robot/install/modelo_robot/lib/python3.8/site-packages/modelo_robot-0.0.0-py3.8.egg-info/zip-safe
