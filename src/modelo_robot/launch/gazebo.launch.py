@@ -23,9 +23,9 @@ def generate_launch_description():
     pkg_share = FindPackageShare(package=package_name).find(package_name)
     pkg_gazebo_ros = FindPackageShare(package='gazebo_ros').find('gazebo_ros') 
 
-    #world_file_path = 'world.world'
-    #world = LaunchConfiguration('world')
-    #world_path = os.path.join(pkg_share, 'worlds',  world_file_path)
+    world_file_path = 'museum.world'
+    world = LaunchConfiguration('world')
+    world_path = os.path.join(pkg_share, 'worlds',  world_file_path)
 
     declare_use_sim_time_cmd = DeclareLaunchArgument(
         name='use_sim_time',
@@ -92,7 +92,7 @@ def generate_launch_description():
 
 
     gazebo = ExecuteProcess(
-        cmd=['gazebo', '--verbose', '-s', 'libgazebo_ros_factory.so', 
+        cmd=['gazebo', world_path, '--verbose', '-s', 'libgazebo_ros_factory.so', 
         '-s', 'libgazebo_ros_init.so'], output='screen',
         )
 

@@ -4,7 +4,6 @@ setup.py
 ../../build/modelo_robot/modelo_robot.egg-info/PKG-INFO
 ../../build/modelo_robot/modelo_robot.egg-info/SOURCES.txt
 ../../build/modelo_robot/modelo_robot.egg-info/dependency_links.txt
-../../build/modelo_robot/modelo_robot.egg-info/entry_points.txt
 ../../build/modelo_robot/modelo_robot.egg-info/requires.txt
 ../../build/modelo_robot/modelo_robot.egg-info/top_level.txt
 ../../build/modelo_robot/modelo_robot.egg-info/zip-safe
@@ -21,4 +20,5 @@ test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 urdf/Seguidor_linea_robot.urdf
+worlds/museum.world
 worlds/world.world
