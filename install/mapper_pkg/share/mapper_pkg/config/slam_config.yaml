@@ -11,7 +11,7 @@ slam_toolbox:
 
     # ROS Parameters
     odom_frame: odom_link
-    map_frame: odom_link
+    map_frame: map
     base_frame: base_link_ground
     scan_topic: laser_scan
     mode: mapping #localization

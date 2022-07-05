@@ -55,9 +55,9 @@
 
   <link name="base_link_ground"/>
   <joint name="ground_base_joint" type="fixed">
-    <parent link="base_link" />
-    <child link = "base_link_ground" />
-    <origin xyz="0.0 0.0 -0.05" rpy="0.0 0.0 0.0" />
+    <parent link="base_link_ground" />
+    <child link = "base_link" />
+    <origin xyz="0.0 0.0 0.05" rpy="0.0 0.0 0.0" />
   </joint>
 
   <gazebo reference="base_link">
@@ -359,8 +359,8 @@
     name="Lidar_joint"
     type="fixed">
     <origin
-      xyz="0.0 0 0.0"
-      rpy="0 -0.08 0" />
+      xyz="0.0 0 0.02"
+      rpy="0 -0.087 0" />
     <parent
       link="base_link" />
     <child
@@ -403,7 +403,7 @@
         </scan>
         <range>
           <min>0.07</min>
-          <max>10.0</max>
+          <max>5.0</max>
           <resolution>0.015</resolution>
         </range>
         <noise>
@@ -490,7 +490,7 @@
  
       <odometry_topic>odom</odometry_topic>
       <odometry_frame>odom_link</odometry_frame>
-      <robot_base_frame>base_link</robot_base_frame>
+      <robot_base_frame>base_link_ground</robot_base_frame>
  
       <odometry_source>1</odometry_source>
       <ros>

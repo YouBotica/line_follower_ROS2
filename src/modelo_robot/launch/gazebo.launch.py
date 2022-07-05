@@ -116,6 +116,6 @@ def generate_launch_description():
     spawn,
     robot_state_publisher_node,
     robot_localization_node,
-    #map_frame,
+    map_frame,
     gazebo
 ])

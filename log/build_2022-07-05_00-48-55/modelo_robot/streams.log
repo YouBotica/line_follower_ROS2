@@ -1,0 +1,25 @@
+[2.844s] Invoking command in '/home/legacy/youtube_robot/src/modelo_robot': PYTHONPATH=/home/legacy/youtube_robot/install/modelo_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/modelo_robot build --build-base /home/legacy/youtube_robot/build/modelo_robot/build install --prefix /home/legacy/youtube_robot/install/modelo_robot --record /home/legacy/youtube_robot/build/modelo_robot/install.log --single-version-externally-managed
+[3.288s] /home/legacy/.local/lib/python3.8/site-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.288s]   warnings.warn(
+[3.288s] /home/legacy/.local/lib/python3.8/site-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[3.288s]   warnings.warn(
+[4.178s] running egg_info
+[4.261s] writing ../../build/modelo_robot/modelo_robot.egg-info/PKG-INFO
+[4.327s] writing dependency_links to ../../build/modelo_robot/modelo_robot.egg-info/dependency_links.txt
+[4.660s] writing requirements to ../../build/modelo_robot/modelo_robot.egg-info/requires.txt
+[4.745s] writing top-level names to ../../build/modelo_robot/modelo_robot.egg-info/top_level.txt
+[4.864s] reading manifest file '../../build/modelo_robot/modelo_robot.egg-info/SOURCES.txt'
+[4.866s] writing manifest file '../../build/modelo_robot/modelo_robot.egg-info/SOURCES.txt'
+[4.866s] running build
+[4.866s] running build_py
+[4.866s] running install
+[4.866s] /home/legacy/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.866s]   warnings.warn(
+[4.873s] running install_lib
+[4.972s] running install_data
+[4.992s] running install_egg_info
+[5.081s] removing '/home/legacy/youtube_robot/install/modelo_robot/lib/python3.8/site-packages/modelo_robot-0.0.0-py3.8.egg-info' (and everything under it)
+[5.082s] Copying ../../build/modelo_robot/modelo_robot.egg-info to /home/legacy/youtube_robot/install/modelo_robot/lib/python3.8/site-packages/modelo_robot-0.0.0-py3.8.egg-info
+[5.083s] running install_scripts
+[5.250s] writing list of installed files to '/home/legacy/youtube_robot/build/modelo_robot/install.log'
+[5.302s] Invoked command in '/home/legacy/youtube_robot/src/modelo_robot' returned '0': PYTHONPATH=/home/legacy/youtube_robot/install/modelo_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/modelo_robot build --build-base /home/legacy/youtube_robot/build/modelo_robot/build install --prefix /home/legacy/youtube_robot/install/modelo_robot --record /home/legacy/youtube_robot/build/modelo_robot/install.log --single-version-externally-managed

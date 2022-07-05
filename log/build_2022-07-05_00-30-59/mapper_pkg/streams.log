@@ -1,0 +1,24 @@
+[0.043s] Invoking command in '/home/legacy/youtube_robot/build/mapper_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/legacy/youtube_robot/build/mapper_pkg -- -j8 -l8
+[1.028s] Invoked command in '/home/legacy/youtube_robot/build/mapper_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/legacy/youtube_robot/build/mapper_pkg -- -j8 -l8
+[1.065s] Invoking command in '/home/legacy/youtube_robot/build/mapper_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/legacy/youtube_robot/build/mapper_pkg
+[1.074s] -- Install configuration: ""
+[1.074s] -- Up-to-date: /home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/launch
+[1.074s] -- Up-to-date: /home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/launch/mapper.launch.py
+[1.074s] -- Up-to-date: /home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/config
+[1.075s] -- Up-to-date: /home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/config/slam_config.yaml
+[1.075s] -- Up-to-date: /home/legacy/youtube_robot/install/mapper_pkg/share/ament_index/resource_index/package_run_dependencies/mapper_pkg
+[1.075s] -- Up-to-date: /home/legacy/youtube_robot/install/mapper_pkg/share/ament_index/resource_index/parent_prefix_path/mapper_pkg
+[1.075s] -- Up-to-date: /home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/environment/ament_prefix_path.sh
+[1.075s] -- Up-to-date: /home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/environment/ament_prefix_path.dsv
+[1.075s] -- Up-to-date: /home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/environment/path.sh
+[1.076s] -- Up-to-date: /home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/environment/path.dsv
+[1.076s] -- Up-to-date: /home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/local_setup.bash
+[1.076s] -- Up-to-date: /home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/local_setup.sh
+[1.076s] -- Up-to-date: /home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/local_setup.zsh
+[1.076s] -- Up-to-date: /home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/local_setup.dsv
+[1.077s] -- Installing: /home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/package.dsv
+[1.079s] -- Up-to-date: /home/legacy/youtube_robot/install/mapper_pkg/share/ament_index/resource_index/packages/mapper_pkg
+[1.079s] -- Up-to-date: /home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/cmake/mapper_pkgConfig.cmake
+[1.079s] -- Up-to-date: /home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/cmake/mapper_pkgConfig-version.cmake
+[1.080s] -- Up-to-date: /home/legacy/youtube_robot/install/mapper_pkg/share/mapper_pkg/package.xml
+[1.082s] Invoked command in '/home/legacy/youtube_robot/build/mapper_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/legacy/youtube_robot/build/mapper_pkg
