@@ -1,0 +1,22 @@
+[0.739s] Invoking command in '/home/legacy/youtube_robot/build/pub_sub_cpp': /usr/bin/cmake --build /home/legacy/youtube_robot/build/pub_sub_cpp -- -j8 -l8
+[0.933s] [100%] Built target publicador_movimiento
+[0.946s] Invoked command in '/home/legacy/youtube_robot/build/pub_sub_cpp' returned '0': /usr/bin/cmake --build /home/legacy/youtube_robot/build/pub_sub_cpp -- -j8 -l8
+[0.982s] Invoking command in '/home/legacy/youtube_robot/build/pub_sub_cpp': /usr/bin/cmake --install /home/legacy/youtube_robot/build/pub_sub_cpp
+[0.993s] -- Install configuration: ""
+[0.994s] -- Up-to-date: /home/legacy/youtube_robot/install/pub_sub_cpp/lib/pub_sub_cpp/publicador_movimiento
+[0.995s] -- Up-to-date: /home/legacy/youtube_robot/install/pub_sub_cpp/share/ament_index/resource_index/package_run_dependencies/pub_sub_cpp
+[0.995s] -- Up-to-date: /home/legacy/youtube_robot/install/pub_sub_cpp/share/ament_index/resource_index/parent_prefix_path/pub_sub_cpp
+[0.996s] -- Up-to-date: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/environment/ament_prefix_path.sh
+[0.996s] -- Up-to-date: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/environment/ament_prefix_path.dsv
+[0.996s] -- Up-to-date: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/environment/path.sh
+[0.996s] -- Up-to-date: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/environment/path.dsv
+[0.996s] -- Up-to-date: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/local_setup.bash
+[0.996s] -- Up-to-date: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/local_setup.sh
+[0.997s] -- Up-to-date: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/local_setup.zsh
+[0.997s] -- Up-to-date: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/local_setup.dsv
+[0.997s] -- Installing: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/package.dsv
+[0.997s] -- Up-to-date: /home/legacy/youtube_robot/install/pub_sub_cpp/share/ament_index/resource_index/packages/pub_sub_cpp
+[0.997s] -- Up-to-date: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/cmake/pub_sub_cppConfig.cmake
+[0.997s] -- Up-to-date: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/cmake/pub_sub_cppConfig-version.cmake
+[0.997s] -- Up-to-date: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/package.xml
+[0.999s] Invoked command in '/home/legacy/youtube_robot/build/pub_sub_cpp' returned '0': /usr/bin/cmake --install /home/legacy/youtube_robot/build/pub_sub_cpp

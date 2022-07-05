@@ -1,0 +1,11 @@
+[0.800s] Invoking command in '/home/legacy/youtube_robot/build/pub_sub_cpp': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/legacy/youtube_robot/build/pub_sub_cpp -- -j8 -l8
+[0.876s] [35m[1mScanning dependencies of target publicador_movimiento[0m
+[0.906s] [ 50%] [32mBuilding CXX object CMakeFiles/publicador_movimiento.dir/src/pub_sub.cpp.o[0m
+[2.097s] [01m[K/home/legacy/youtube_robot/src/pub_sub_cpp/src/pub_sub.cpp:[m[K In constructor ‘[01m[KPublicadorMovimiento::PublicadorMovimiento()[m[K’:
+[2.098s] [01m[K/home/legacy/youtube_robot/src/pub_sub_cpp/src/pub_sub.cpp:22:38:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KPublicadorMovimiento[m[K’ does not have any field named ‘[01m[Kcount_[m[K’
+[2.098s]    22 |     : Node("publicador_movimiento"), [01;31m[Kcount_[m[K(0)
+[2.098s]       |                                      [01;31m[K^~~~~~[m[K
+[2.940s] make[2]: *** [CMakeFiles/publicador_movimiento.dir/build.make:63: CMakeFiles/publicador_movimiento.dir/src/pub_sub.cpp.o] Error 1
+[2.940s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/publicador_movimiento.dir/all] Error 2
+[2.941s] make: *** [Makefile:141: all] Error 2
+[2.944s] Invoked command in '/home/legacy/youtube_robot/build/pub_sub_cpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/legacy/youtube_robot/build/pub_sub_cpp -- -j8 -l8

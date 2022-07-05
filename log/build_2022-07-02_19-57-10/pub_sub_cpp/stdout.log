@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target publicador_movimiento[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/publicador_movimiento.dir/src/pub_sub.cpp.o[0m
+[100%] [32m[1mLinking CXX executable publicador_movimiento[0m
+[100%] Built target publicador_movimiento
+-- Install configuration: ""
+-- Installing: /home/legacy/youtube_robot/install/pub_sub_cpp/lib/pub_sub_cpp/publicador_movimiento
+-- Set runtime path of "/home/legacy/youtube_robot/install/pub_sub_cpp/lib/pub_sub_cpp/publicador_movimiento" to ""
+-- Installing: /home/legacy/youtube_robot/install/pub_sub_cpp/share/ament_index/resource_index/package_run_dependencies/pub_sub_cpp
+-- Installing: /home/legacy/youtube_robot/install/pub_sub_cpp/share/ament_index/resource_index/parent_prefix_path/pub_sub_cpp
+-- Installing: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/environment/ament_prefix_path.dsv
+-- Installing: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/environment/path.sh
+-- Installing: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/environment/path.dsv
+-- Installing: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/local_setup.bash
+-- Installing: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/local_setup.sh
+-- Installing: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/local_setup.zsh
+-- Installing: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/local_setup.dsv
+-- Installing: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/package.dsv
+-- Installing: /home/legacy/youtube_robot/install/pub_sub_cpp/share/ament_index/resource_index/packages/pub_sub_cpp
+-- Installing: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/cmake/pub_sub_cppConfig.cmake
+-- Installing: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/cmake/pub_sub_cppConfig-version.cmake
+-- Installing: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/package.xml

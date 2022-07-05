@@ -1,0 +1,270 @@
+[0.000000] (-) TimerEvent: {}
+[0.000753] (modelo_robot) JobQueued: {'identifier': 'modelo_robot', 'dependencies': OrderedDict()}
+[0.000796] (pub_sub_cpp) JobQueued: {'identifier': 'pub_sub_cpp', 'dependencies': OrderedDict()}
+[0.000818] (publicador_python) JobQueued: {'identifier': 'publicador_python', 'dependencies': OrderedDict([('modelo_robot', '/home/legacy/youtube_robot/install/modelo_robot')])}
+[0.001545] (modelo_robot) JobStarted: {'identifier': 'modelo_robot'}
+[0.021813] (pub_sub_cpp) JobStarted: {'identifier': 'pub_sub_cpp'}
+[0.100102] (-) TimerEvent: {}
+[0.200477] (-) TimerEvent: {}
+[0.300738] (-) TimerEvent: {}
+[0.400976] (-) TimerEvent: {}
+[0.501324] (-) TimerEvent: {}
+[0.601666] (-) TimerEvent: {}
+[0.702000] (-) TimerEvent: {}
+[0.802423] (-) TimerEvent: {}
+[0.902713] (-) TimerEvent: {}
+[0.971745] (pub_sub_cpp) JobProgress: {'identifier': 'pub_sub_cpp', 'progress': 'cmake'}
+[0.972312] (pub_sub_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/legacy/youtube_robot/src/pub_sub_cpp', '-DCMAKE_INSTALL_PREFIX=/home/legacy/youtube_robot/install/pub_sub_cpp'], 'cwd': '/home/legacy/youtube_robot/build/pub_sub_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'legacy'), ('LC_TIME', 'es_CO.UTF-8'), ('SSH_AGENT_PID', '2852'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/legacy'), ('OLDPWD', '/home/legacy'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('HOMEBREW_PREFIX', '/home/linuxbrew/.linuxbrew'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('MANAGERPID', '1495'), ('HOMEBREW_SHELLENV_PREFIX', '/home/linuxbrew/.linuxbrew'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('INFOPATH', '/home/linuxbrew/.linuxbrew/share/info:'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'legacy'), ('JOURNAL_STREAM', '8:67754'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'legacy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/legacy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/legacy-TUF-GAMING-FX504GM-FX80GM:@/tmp/.ICE-unix/2879,unix/legacy-TUF-GAMING-FX504GM-FX80GM:/tmp/.ICE-unix/2879'), ('INVOCATION_ID', '476308f2fee74c6f923d5ac98f3a0c1a'), ('HOMEBREW_CELLAR', '/home/linuxbrew/.linuxbrew/Cellar'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9fbf9f55_12bb_45d8_8f87_d2059898fde9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.701'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/legacy/youtube_robot/build/pub_sub_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('HOMEBREW_REPOSITORY', '/home/linuxbrew/.linuxbrew/Homebrew'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('MANPATH', '/home/linuxbrew/.linuxbrew/share/man:'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.002908] (-) TimerEvent: {}
+[1.044294] (pub_sub_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.103004] (-) TimerEvent: {}
+[1.113337] (pub_sub_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.118956] (pub_sub_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.198943] (pub_sub_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.200114] (pub_sub_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.203082] (-) TimerEvent: {}
+[1.279450] (pub_sub_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.293512] (pub_sub_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.293897] (pub_sub_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.297711] (pub_sub_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.303208] (-) TimerEvent: {}
+[1.391071] (pub_sub_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.392471] (pub_sub_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.403294] (-) TimerEvent: {}
+[1.487922] (pub_sub_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.502067] (pub_sub_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.502679] (pub_sub_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.503389] (-) TimerEvent: {}
+[1.506585] (pub_sub_cpp) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.536106] (pub_sub_cpp) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.536400] (pub_sub_cpp) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.603511] (-) TimerEvent: {}
+[1.703832] (-) TimerEvent: {}
+[1.804147] (-) TimerEvent: {}
+[1.904446] (-) TimerEvent: {}
+[1.972907] (pub_sub_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.983072] (pub_sub_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.004578] (-) TimerEvent: {}
+[2.066249] (pub_sub_cpp) StdoutLine: {'line': b'-- Found OpenSSL: /home/linuxbrew/.linuxbrew/Cellar/openssl@1.1/1.1.1k/lib/libcrypto.so (found version "1.1.1k")  \n'}
+[2.104692] (-) TimerEvent: {}
+[2.113556] (pub_sub_cpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[2.204804] (-) TimerEvent: {}
+[2.240515] (pub_sub_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.304901] (-) TimerEvent: {}
+[2.329872] (pub_sub_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[2.333287] (pub_sub_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.334729] (pub_sub_cpp) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.405041] (-) TimerEvent: {}
+[2.443275] (pub_sub_cpp) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.443679] (pub_sub_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.496905] (modelo_robot) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/modelo_robot', 'build', '--build-base', '/home/legacy/youtube_robot/build/modelo_robot/build', 'install', '--prefix', '/home/legacy/youtube_robot/install/modelo_robot', '--record', '/home/legacy/youtube_robot/build/modelo_robot/install.log', '--single-version-externally-managed'], 'cwd': '/home/legacy/youtube_robot/src/modelo_robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'legacy', 'LC_TIME': 'es_CO.UTF-8', 'SSH_AGENT_PID': '2852', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/legacy', 'OLDPWD': '/home/legacy', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'HOMEBREW_PREFIX': '/home/linuxbrew/.linuxbrew', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_CO.UTF-8', 'MANAGERPID': '1495', 'HOMEBREW_SHELLENV_PREFIX': '/home/linuxbrew/.linuxbrew', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'INFOPATH': '/home/linuxbrew/.linuxbrew/share/info:', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'legacy', 'JOURNAL_STREAM': '8:67754', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'legacy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/legacy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/legacy-TUF-GAMING-FX504GM-FX80GM:@/tmp/.ICE-unix/2879,unix/legacy-TUF-GAMING-FX504GM-FX80GM:/tmp/.ICE-unix/2879', 'INVOCATION_ID': '476308f2fee74c6f923d5ac98f3a0c1a', 'HOMEBREW_CELLAR': '/home/linuxbrew/.linuxbrew/Cellar', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_CO.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9fbf9f55_12bb_45d8_8f87_d2059898fde9', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_CO.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.701', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'es_CO.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_CO.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'es_CO.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/legacy/youtube_robot/build/modelo_robot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/legacy/youtube_robot/install/modelo_robot/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'HOMEBREW_REPOSITORY': '/home/linuxbrew/.linuxbrew/Homebrew', 'LC_NUMERIC': 'es_CO.UTF-8', 'LC_PAPER': 'es_CO.UTF-8', 'COLCON': '1', 'MANPATH': '/home/linuxbrew/.linuxbrew/share/man:', 'VTE_VERSION': '6003'}, 'shell': False}
+[2.505162] (-) TimerEvent: {}
+[2.551629] (pub_sub_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[2.551969] (pub_sub_cpp) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[2.605261] (-) TimerEvent: {}
+[2.628956] (pub_sub_cpp) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[2.629306] (pub_sub_cpp) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[2.705374] (-) TimerEvent: {}
+[2.738796] (pub_sub_cpp) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[2.740717] (pub_sub_cpp) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.805464] (-) TimerEvent: {}
+[2.905752] (-) TimerEvent: {}
+[2.938608] (modelo_robot) StderrLine: {'line': b"/home/legacy/.local/lib/python3.8/site-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[2.938884] (modelo_robot) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.939091] (modelo_robot) StderrLine: {'line': b"/home/legacy/.local/lib/python3.8/site-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead\n"}
+[2.939255] (modelo_robot) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.947163] (pub_sub_cpp) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[2.992250] (pub_sub_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[3.005877] (-) TimerEvent: {}
+[3.085424] (pub_sub_cpp) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.086718] (pub_sub_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.086995] (pub_sub_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.087173] (pub_sub_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.088189] (pub_sub_cpp) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.088358] (pub_sub_cpp) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.089464] (pub_sub_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.090898] (pub_sub_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.091053] (pub_sub_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.091685] (pub_sub_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.095177] (pub_sub_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.103594] (pub_sub_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[3.105468] (pub_sub_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/legacy/youtube_robot/build/pub_sub_cpp\n'}
+[3.105950] (-) TimerEvent: {}
+[3.112540] (pub_sub_cpp) CommandEnded: {'returncode': 0}
+[3.113264] (pub_sub_cpp) JobProgress: {'identifier': 'pub_sub_cpp', 'progress': 'build'}
+[3.114288] (pub_sub_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/legacy/youtube_robot/build/pub_sub_cpp', '--', '-j8', '-l8'], 'cwd': '/home/legacy/youtube_robot/build/pub_sub_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'legacy'), ('LC_TIME', 'es_CO.UTF-8'), ('SSH_AGENT_PID', '2852'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/legacy'), ('OLDPWD', '/home/legacy'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('HOMEBREW_PREFIX', '/home/linuxbrew/.linuxbrew'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('MANAGERPID', '1495'), ('HOMEBREW_SHELLENV_PREFIX', '/home/linuxbrew/.linuxbrew'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('INFOPATH', '/home/linuxbrew/.linuxbrew/share/info:'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'legacy'), ('JOURNAL_STREAM', '8:67754'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'legacy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/legacy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/legacy-TUF-GAMING-FX504GM-FX80GM:@/tmp/.ICE-unix/2879,unix/legacy-TUF-GAMING-FX504GM-FX80GM:/tmp/.ICE-unix/2879'), ('INVOCATION_ID', '476308f2fee74c6f923d5ac98f3a0c1a'), ('HOMEBREW_CELLAR', '/home/linuxbrew/.linuxbrew/Cellar'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9fbf9f55_12bb_45d8_8f87_d2059898fde9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.701'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/legacy/youtube_robot/build/pub_sub_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('HOMEBREW_REPOSITORY', '/home/linuxbrew/.linuxbrew/Homebrew'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('MANPATH', '/home/linuxbrew/.linuxbrew/share/man:'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[3.160312] (pub_sub_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target publicador_movimiento\x1b[0m\n'}
+[3.206072] (-) TimerEvent: {}
+[3.208692] (pub_sub_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/publicador_movimiento.dir/src/pub_sub.cpp.o\x1b[0m\n'}
+[3.306166] (-) TimerEvent: {}
+[3.406482] (-) TimerEvent: {}
+[3.506792] (-) TimerEvent: {}
+[3.607139] (-) TimerEvent: {}
+[3.707493] (-) TimerEvent: {}
+[3.794973] (modelo_robot) StdoutLine: {'line': b'running egg_info\n'}
+[3.795764] (modelo_robot) StdoutLine: {'line': b'creating ../../build/modelo_robot/modelo_robot.egg-info\n'}
+[3.807601] (-) TimerEvent: {}
+[3.897965] (modelo_robot) StdoutLine: {'line': b'writing ../../build/modelo_robot/modelo_robot.egg-info/PKG-INFO\n'}
+[3.907705] (-) TimerEvent: {}
+[3.979653] (modelo_robot) StdoutLine: {'line': b'writing dependency_links to ../../build/modelo_robot/modelo_robot.egg-info/dependency_links.txt\n'}
+[4.007832] (-) TimerEvent: {}
+[4.108157] (-) TimerEvent: {}
+[4.208460] (-) TimerEvent: {}
+[4.290137] (modelo_robot) StdoutLine: {'line': b'writing requirements to ../../build/modelo_robot/modelo_robot.egg-info/requires.txt\n'}
+[4.308593] (-) TimerEvent: {}
+[4.361687] (modelo_robot) StdoutLine: {'line': b'writing top-level names to ../../build/modelo_robot/modelo_robot.egg-info/top_level.txt\n'}
+[4.364103] (modelo_robot) StdoutLine: {'line': b"writing manifest file '../../build/modelo_robot/modelo_robot.egg-info/SOURCES.txt'\n"}
+[4.408721] (-) TimerEvent: {}
+[4.483523] (modelo_robot) StdoutLine: {'line': b"reading manifest file '../../build/modelo_robot/modelo_robot.egg-info/SOURCES.txt'\n"}
+[4.484637] (modelo_robot) StdoutLine: {'line': b"writing manifest file '../../build/modelo_robot/modelo_robot.egg-info/SOURCES.txt'\n"}
+[4.485002] (modelo_robot) StdoutLine: {'line': b'running build\n'}
+[4.485315] (modelo_robot) StdoutLine: {'line': b'running build_py\n'}
+[4.485535] (modelo_robot) StdoutLine: {'line': b'creating /home/legacy/youtube_robot/build/modelo_robot/build\n'}
+[4.485748] (modelo_robot) StdoutLine: {'line': b'creating /home/legacy/youtube_robot/build/modelo_robot/build/lib\n'}
+[4.485936] (modelo_robot) StdoutLine: {'line': b'creating /home/legacy/youtube_robot/build/modelo_robot/build/lib/modelo_robot\n'}
+[4.486123] (modelo_robot) StdoutLine: {'line': b'copying modelo_robot/__init__.py -> /home/legacy/youtube_robot/build/modelo_robot/build/lib/modelo_robot\n'}
+[4.486368] (modelo_robot) StdoutLine: {'line': b'running install\n'}
+[4.486542] (modelo_robot) StderrLine: {'line': b'/home/legacy/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.486714] (modelo_robot) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.494017] (modelo_robot) StdoutLine: {'line': b'running install_lib\n'}
+[4.508843] (-) TimerEvent: {}
+[4.604449] (modelo_robot) StdoutLine: {'line': b'creating /home/legacy/youtube_robot/install/modelo_robot/lib/python3.8/site-packages/modelo_robot\n'}
+[4.604811] (modelo_robot) StdoutLine: {'line': b'copying /home/legacy/youtube_robot/build/modelo_robot/build/lib/modelo_robot/__init__.py -> /home/legacy/youtube_robot/install/modelo_robot/lib/python3.8/site-packages/modelo_robot\n'}
+[4.605402] (modelo_robot) StdoutLine: {'line': b'byte-compiling /home/legacy/youtube_robot/install/modelo_robot/lib/python3.8/site-packages/modelo_robot/__init__.py to __init__.cpython-38.pyc\n'}
+[4.605758] (modelo_robot) StdoutLine: {'line': b'running install_data\n'}
+[4.608942] (-) TimerEvent: {}
+[4.627808] (modelo_robot) StdoutLine: {'line': b'creating /home/legacy/youtube_robot/install/modelo_robot/share/ament_index\n'}
+[4.628181] (modelo_robot) StdoutLine: {'line': b'creating /home/legacy/youtube_robot/install/modelo_robot/share/ament_index/resource_index\n'}
+[4.628448] (modelo_robot) StdoutLine: {'line': b'creating /home/legacy/youtube_robot/install/modelo_robot/share/ament_index/resource_index/packages\n'}
+[4.628650] (modelo_robot) StdoutLine: {'line': b'copying resource/modelo_robot -> /home/legacy/youtube_robot/install/modelo_robot/share/ament_index/resource_index/packages\n'}
+[4.628910] (modelo_robot) StdoutLine: {'line': b'copying package.xml -> /home/legacy/youtube_robot/install/modelo_robot/share/modelo_robot\n'}
+[4.629158] (modelo_robot) StdoutLine: {'line': b'creating /home/legacy/youtube_robot/install/modelo_robot/share/modelo_robot/urdf\n'}
+[4.629404] (modelo_robot) StdoutLine: {'line': b'copying urdf/Seguidor_linea_robot.urdf -> /home/legacy/youtube_robot/install/modelo_robot/share/modelo_robot/urdf\n'}
+[4.629588] (modelo_robot) StdoutLine: {'line': b'creating /home/legacy/youtube_robot/install/modelo_robot/share/modelo_robot/launch\n'}
+[4.629693] (modelo_robot) StdoutLine: {'line': b'copying launch/gazebo.launch.py -> /home/legacy/youtube_robot/install/modelo_robot/share/modelo_robot/launch\n'}
+[4.629794] (modelo_robot) StdoutLine: {'line': b'copying launch/display.launch.py -> /home/legacy/youtube_robot/install/modelo_robot/share/modelo_robot/launch\n'}
+[4.629895] (modelo_robot) StdoutLine: {'line': b'creating /home/legacy/youtube_robot/install/modelo_robot/share/modelo_robot/meshes\n'}
+[4.630058] (modelo_robot) StdoutLine: {'line': b'copying meshes/Rueda_derecha_link.STL -> /home/legacy/youtube_robot/install/modelo_robot/share/modelo_robot/meshes\n'}
+[4.635193] (modelo_robot) StdoutLine: {'line': b'copying meshes/Rueda_castor_link.STL -> /home/legacy/youtube_robot/install/modelo_robot/share/modelo_robot/meshes\n'}
+[4.637058] (modelo_robot) StdoutLine: {'line': b'copying meshes/Rueda_izquierda_link.STL -> /home/legacy/youtube_robot/install/modelo_robot/share/modelo_robot/meshes\n'}
+[4.642374] (modelo_robot) StdoutLine: {'line': b'copying meshes/base_link.STL -> /home/legacy/youtube_robot/install/modelo_robot/share/modelo_robot/meshes\n'}
+[4.648734] (modelo_robot) StdoutLine: {'line': b'copying meshes/Base_castor_link.STL -> /home/legacy/youtube_robot/install/modelo_robot/share/modelo_robot/meshes\n'}
+[4.650767] (modelo_robot) StdoutLine: {'line': b'creating /home/legacy/youtube_robot/install/modelo_robot/share/modelo_robot/worlds\n'}
+[4.651035] (modelo_robot) StdoutLine: {'line': b'copying worlds/world.world -> /home/legacy/youtube_robot/install/modelo_robot/share/modelo_robot/worlds\n'}
+[4.651940] (modelo_robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.709059] (-) TimerEvent: {}
+[4.765206] (modelo_robot) StdoutLine: {'line': b'Copying ../../build/modelo_robot/modelo_robot.egg-info to /home/legacy/youtube_robot/install/modelo_robot/lib/python3.8/site-packages/modelo_robot-0.0.0-py3.8.egg-info\n'}
+[4.766636] (modelo_robot) StdoutLine: {'line': b'running install_scripts\n'}
+[4.809188] (-) TimerEvent: {}
+[4.909495] (-) TimerEvent: {}
+[4.942115] (modelo_robot) StdoutLine: {'line': b"writing list of installed files to '/home/legacy/youtube_robot/build/modelo_robot/install.log'\n"}
+[4.994774] (modelo_robot) CommandEnded: {'returncode': 0}
+[5.010736] (-) TimerEvent: {}
+[5.024604] (modelo_robot) JobEnded: {'identifier': 'modelo_robot', 'rc': 0}
+[5.029645] (publicador_python) JobStarted: {'identifier': 'publicador_python'}
+[5.111005] (-) TimerEvent: {}
+[5.211671] (-) TimerEvent: {}
+[5.312056] (-) TimerEvent: {}
+[5.412326] (-) TimerEvent: {}
+[5.512703] (-) TimerEvent: {}
+[5.613136] (-) TimerEvent: {}
+[5.713560] (-) TimerEvent: {}
+[5.813912] (-) TimerEvent: {}
+[5.914278] (-) TimerEvent: {}
+[6.014572] (-) TimerEvent: {}
+[6.114859] (-) TimerEvent: {}
+[6.215173] (-) TimerEvent: {}
+[6.315586] (-) TimerEvent: {}
+[6.415836] (-) TimerEvent: {}
+[6.516149] (-) TimerEvent: {}
+[6.616451] (-) TimerEvent: {}
+[6.716899] (-) TimerEvent: {}
+[6.817268] (-) TimerEvent: {}
+[6.917612] (-) TimerEvent: {}
+[7.017959] (-) TimerEvent: {}
+[7.118272] (-) TimerEvent: {}
+[7.218599] (-) TimerEvent: {}
+[7.318902] (-) TimerEvent: {}
+[7.419228] (-) TimerEvent: {}
+[7.519495] (-) TimerEvent: {}
+[7.619791] (-) TimerEvent: {}
+[7.627822] (publicador_python) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/publicador_python', 'build', '--build-base', '/home/legacy/youtube_robot/build/publicador_python/build', 'install', '--prefix', '/home/legacy/youtube_robot/install/publicador_python', '--record', '/home/legacy/youtube_robot/build/publicador_python/install.log', '--single-version-externally-managed'], 'cwd': '/home/legacy/youtube_robot/src/publicador_python', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'legacy', 'LC_TIME': 'es_CO.UTF-8', 'SSH_AGENT_PID': '2852', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/legacy', 'OLDPWD': '/home/legacy', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'HOMEBREW_PREFIX': '/home/linuxbrew/.linuxbrew', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_CO.UTF-8', 'MANAGERPID': '1495', 'HOMEBREW_SHELLENV_PREFIX': '/home/linuxbrew/.linuxbrew', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'INFOPATH': '/home/linuxbrew/.linuxbrew/share/info:', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'legacy', 'JOURNAL_STREAM': '8:67754', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'legacy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/legacy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/legacy-TUF-GAMING-FX504GM-FX80GM:@/tmp/.ICE-unix/2879,unix/legacy-TUF-GAMING-FX504GM-FX80GM:/tmp/.ICE-unix/2879', 'INVOCATION_ID': '476308f2fee74c6f923d5ac98f3a0c1a', 'HOMEBREW_CELLAR': '/home/linuxbrew/.linuxbrew/Cellar', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_CO.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9fbf9f55_12bb_45d8_8f87_d2059898fde9', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_CO.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.701', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/legacy/youtube_robot/install/modelo_robot:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'es_CO.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_CO.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'es_CO.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/legacy/youtube_robot/build/publicador_python', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/legacy/youtube_robot/install/publicador_python/lib/python3.8/site-packages:/home/legacy/youtube_robot/install/modelo_robot/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'HOMEBREW_REPOSITORY': '/home/linuxbrew/.linuxbrew/Homebrew', 'LC_NUMERIC': 'es_CO.UTF-8', 'LC_PAPER': 'es_CO.UTF-8', 'COLCON': '1', 'MANPATH': '/home/linuxbrew/.linuxbrew/share/man:', 'VTE_VERSION': '6003'}, 'shell': False}
+[7.719917] (-) TimerEvent: {}
+[7.820234] (-) TimerEvent: {}
+[7.920511] (-) TimerEvent: {}
+[7.987805] (publicador_python) StderrLine: {'line': b"/home/legacy/.local/lib/python3.8/site-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[7.987994] (publicador_python) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.988237] (publicador_python) StderrLine: {'line': b"/home/legacy/.local/lib/python3.8/site-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead\n"}
+[7.988354] (publicador_python) StderrLine: {'line': b'  warnings.warn(\n'}
+[8.020633] (-) TimerEvent: {}
+[8.120917] (-) TimerEvent: {}
+[8.221233] (-) TimerEvent: {}
+[8.321529] (-) TimerEvent: {}
+[8.421770] (-) TimerEvent: {}
+[8.522061] (-) TimerEvent: {}
+[8.622381] (-) TimerEvent: {}
+[8.722664] (-) TimerEvent: {}
+[8.822949] (-) TimerEvent: {}
+[8.896336] (publicador_python) StdoutLine: {'line': b'running egg_info\n'}
+[8.897048] (publicador_python) StdoutLine: {'line': b'creating ../../build/publicador_python/publicador_python.egg-info\n'}
+[8.923083] (-) TimerEvent: {}
+[8.991267] (publicador_python) StdoutLine: {'line': b'writing ../../build/publicador_python/publicador_python.egg-info/PKG-INFO\n'}
+[9.023204] (-) TimerEvent: {}
+[9.071900] (publicador_python) StdoutLine: {'line': b'writing dependency_links to ../../build/publicador_python/publicador_python.egg-info/dependency_links.txt\n'}
+[9.123298] (-) TimerEvent: {}
+[9.223593] (-) TimerEvent: {}
+[9.270995] (publicador_python) StdoutLine: {'line': b'writing entry points to ../../build/publicador_python/publicador_python.egg-info/entry_points.txt\n'}
+[9.323695] (-) TimerEvent: {}
+[9.393417] (publicador_python) StdoutLine: {'line': b'writing requirements to ../../build/publicador_python/publicador_python.egg-info/requires.txt\n'}
+[9.423817] (-) TimerEvent: {}
+[9.454266] (publicador_python) StdoutLine: {'line': b'writing top-level names to ../../build/publicador_python/publicador_python.egg-info/top_level.txt\n'}
+[9.456428] (publicador_python) StdoutLine: {'line': b"writing manifest file '../../build/publicador_python/publicador_python.egg-info/SOURCES.txt'\n"}
+[9.499314] (pub_sub_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable publicador_movimiento\x1b[0m\n'}
+[9.523942] (-) TimerEvent: {}
+[9.559478] (publicador_python) StdoutLine: {'line': b"reading manifest file '../../build/publicador_python/publicador_python.egg-info/SOURCES.txt'\n"}
+[9.560433] (publicador_python) StdoutLine: {'line': b"writing manifest file '../../build/publicador_python/publicador_python.egg-info/SOURCES.txt'\n"}
+[9.560649] (publicador_python) StdoutLine: {'line': b'running build\n'}
+[9.560791] (publicador_python) StdoutLine: {'line': b'running build_py\n'}
+[9.560894] (publicador_python) StdoutLine: {'line': b'creating /home/legacy/youtube_robot/build/publicador_python/build\n'}
+[9.561070] (publicador_python) StdoutLine: {'line': b'creating /home/legacy/youtube_robot/build/publicador_python/build/lib\n'}
+[9.561313] (publicador_python) StdoutLine: {'line': b'creating /home/legacy/youtube_robot/build/publicador_python/build/lib/publicador_python\n'}
+[9.561414] (publicador_python) StdoutLine: {'line': b'copying publicador_python/__init__.py -> /home/legacy/youtube_robot/build/publicador_python/build/lib/publicador_python\n'}
+[9.561504] (publicador_python) StdoutLine: {'line': b'copying publicador_python/subscriber_odom.py -> /home/legacy/youtube_robot/build/publicador_python/build/lib/publicador_python\n'}
+[9.561621] (publicador_python) StdoutLine: {'line': b'copying publicador_python/publicador_cmd.py -> /home/legacy/youtube_robot/build/publicador_python/build/lib/publicador_python\n'}
+[9.561718] (publicador_python) StdoutLine: {'line': b'running install\n'}
+[9.561874] (publicador_python) StderrLine: {'line': b'/home/legacy/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[9.561963] (publicador_python) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.568752] (publicador_python) StdoutLine: {'line': b'running install_lib\n'}
+[9.624121] (-) TimerEvent: {}
+[9.661472] (publicador_python) StdoutLine: {'line': b'creating /home/legacy/youtube_robot/install/publicador_python/lib/python3.8/site-packages/publicador_python\n'}
+[9.661806] (publicador_python) StdoutLine: {'line': b'copying /home/legacy/youtube_robot/build/publicador_python/build/lib/publicador_python/__init__.py -> /home/legacy/youtube_robot/install/publicador_python/lib/python3.8/site-packages/publicador_python\n'}
+[9.661895] (publicador_python) StdoutLine: {'line': b'copying /home/legacy/youtube_robot/build/publicador_python/build/lib/publicador_python/subscriber_odom.py -> /home/legacy/youtube_robot/install/publicador_python/lib/python3.8/site-packages/publicador_python\n'}
+[9.661979] (publicador_python) StdoutLine: {'line': b'copying /home/legacy/youtube_robot/build/publicador_python/build/lib/publicador_python/publicador_cmd.py -> /home/legacy/youtube_robot/install/publicador_python/lib/python3.8/site-packages/publicador_python\n'}
+[9.662233] (publicador_python) StdoutLine: {'line': b'byte-compiling /home/legacy/youtube_robot/install/publicador_python/lib/python3.8/site-packages/publicador_python/__init__.py to __init__.cpython-38.pyc\n'}
+[9.662431] (publicador_python) StdoutLine: {'line': b'byte-compiling /home/legacy/youtube_robot/install/publicador_python/lib/python3.8/site-packages/publicador_python/subscriber_odom.py to subscriber_odom.cpython-38.pyc\n'}
+[9.662857] (publicador_python) StdoutLine: {'line': b'byte-compiling /home/legacy/youtube_robot/install/publicador_python/lib/python3.8/site-packages/publicador_python/publicador_cmd.py to publicador_cmd.cpython-38.pyc\n'}
+[9.663266] (publicador_python) StdoutLine: {'line': b'running install_data\n'}
+[9.680861] (publicador_python) StdoutLine: {'line': b'creating /home/legacy/youtube_robot/install/publicador_python/share/ament_index\n'}
+[9.681146] (publicador_python) StdoutLine: {'line': b'creating /home/legacy/youtube_robot/install/publicador_python/share/ament_index/resource_index\n'}
+[9.681347] (publicador_python) StdoutLine: {'line': b'creating /home/legacy/youtube_robot/install/publicador_python/share/ament_index/resource_index/packages\n'}
+[9.681433] (publicador_python) StdoutLine: {'line': b'copying resource/publicador_python -> /home/legacy/youtube_robot/install/publicador_python/share/ament_index/resource_index/packages\n'}
+[9.681513] (publicador_python) StdoutLine: {'line': b'copying package.xml -> /home/legacy/youtube_robot/install/publicador_python/share/publicador_python\n'}
+[9.681589] (publicador_python) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.724240] (-) TimerEvent: {}
+[9.768666] (publicador_python) StdoutLine: {'line': b'Copying ../../build/publicador_python/publicador_python.egg-info to /home/legacy/youtube_robot/install/publicador_python/lib/python3.8/site-packages/publicador_python-0.0.0-py3.8.egg-info\n'}
+[9.769753] (publicador_python) StdoutLine: {'line': b'running install_scripts\n'}
+[9.792718] (pub_sub_cpp) StderrLine: {'line': b"/home/linuxbrew/.linuxbrew/bin/ld: CMakeFiles/publicador_movimiento.dir/src/pub_sub.cpp.o: in function `rclcpp::create_subscription_factory<nav_msgs::msg::Odometry_<std::allocator<void> >, std::_Bind<void (PublicadorMovimiento::*(PublicadorMovimiento*, std::_Placeholder<1>))(std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >) const>, std::allocator<void>, nav_msgs::msg::Odometry_<std::allocator<void> >, rclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void> > >, rclcpp::message_memory_strategy::MessageMemoryStrategy<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void> > >(std::_Bind<void (PublicadorMovimiento::*(PublicadorMovimiento*, std::_Placeholder<1>))(std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >) const>&&, rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> > const&, rclcpp::message_memory_strategy::MessageMemoryStrategy<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void> >::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<nav_msgs::msg::Odometry_<std::allocator<void> > > >)::{lambda(rclcpp::node_interfaces::NodeBaseInterface*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::QoS const&)#1}::operator()(rclcpp::node_interfaces::NodeBaseInterface*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::QoS const&) const':\n"}
+[9.792958] (pub_sub_cpp) StderrLine: {'line': b"pub_sub.cpp:(.text._ZZN6rclcpp27create_subscription_factoryIN8nav_msgs3msg9Odometry_ISaIvEEESt5_BindIFM20PublicadorMovimientoKFvSt10shared_ptrIS5_EEPS7_St12_PlaceholderILi1EEEES4_S5_NS_12SubscriptionIS5_S4_NS_23message_memory_strategy21MessageMemoryStrategyIS5_S4_EEEESK_EENS_19SubscriptionFactoryEOT0_RKNS_32SubscriptionOptionsWithAllocatorIT1_EENT4_9SharedPtrES8_INS_16topic_statistics27SubscriptionTopicStatisticsIT2_EEEENKUlPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3QoSEE_clES13_S1B_S1E_[_ZZN6rclcpp27create_subscription_factoryIN8nav_msgs3msg9Odometry_ISaIvEEESt5_BindIFM20PublicadorMovimientoKFvSt10shared_ptrIS5_EEPS7_St12_PlaceholderILi1EEEES4_S5_NS_12SubscriptionIS5_S4_NS_23message_memory_strategy21MessageMemoryStrategyIS5_S4_EEEESK_EENS_19SubscriptionFactoryEOT0_RKNS_32SubscriptionOptionsWithAllocatorIT1_EENT4_9SharedPtrES8_INS_16topic_statistics27SubscriptionTopicStatisticsIT2_EEEENKUlPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3QoSEE_clES13_S1B_S1E_]+0x5c): undefined reference to `rosidl_message_type_support_t const* rosidl_typesupport_cpp::get_message_type_support_handle<nav_msgs::msg::Odometry_<std::allocator<void> > >()'\n"}
+[9.793095] (pub_sub_cpp) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[9.794631] (pub_sub_cpp) StderrLine: {'line': b'make[2]: *** [CMakeFiles/publicador_movimiento.dir/build.make:136: publicador_movimiento] Error 1\n'}
+[9.794902] (pub_sub_cpp) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/publicador_movimiento.dir/all] Error 2\n'}
+[9.795185] (pub_sub_cpp) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[9.797186] (pub_sub_cpp) CommandEnded: {'returncode': 2}
+[9.826426] (-) TimerEvent: {}
+[9.838686] (pub_sub_cpp) JobEnded: {'identifier': 'pub_sub_cpp', 'rc': 2}
+[9.923681] (publicador_python) StdoutLine: {'line': b'Installing publicador_cmd script to /home/legacy/youtube_robot/install/publicador_python/lib/publicador_python\n'}
+[9.923998] (publicador_python) StdoutLine: {'line': b'Installing subscriber_odom script to /home/legacy/youtube_robot/install/publicador_python/lib/publicador_python\n'}
+[9.924199] (publicador_python) StdoutLine: {'line': b"writing list of installed files to '/home/legacy/youtube_robot/build/publicador_python/install.log'\n"}
+[9.926515] (-) TimerEvent: {}
+[9.971549] (publicador_python) JobEnded: {'identifier': 'publicador_python', 'rc': 'SIGINT'}
+[9.982196] (-) EventReactorShutdown: {}

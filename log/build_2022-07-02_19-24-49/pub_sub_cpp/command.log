@@ -1,0 +1,4 @@
+Invoking command in '/home/legacy/youtube_robot/build/pub_sub_cpp': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/legacy/youtube_robot/src/pub_sub_cpp -DCMAKE_INSTALL_PREFIX=/home/legacy/youtube_robot/install/pub_sub_cpp
+Invoked command in '/home/legacy/youtube_robot/build/pub_sub_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/legacy/youtube_robot/src/pub_sub_cpp -DCMAKE_INSTALL_PREFIX=/home/legacy/youtube_robot/install/pub_sub_cpp
+Invoking command in '/home/legacy/youtube_robot/build/pub_sub_cpp': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/legacy/youtube_robot/build/pub_sub_cpp -- -j8 -l8
+Invoked command in '/home/legacy/youtube_robot/build/pub_sub_cpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/legacy/youtube_robot/build/pub_sub_cpp -- -j8 -l8

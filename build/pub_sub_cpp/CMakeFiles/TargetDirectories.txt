@@ -1,0 +1,10 @@
+/home/legacy/youtube_robot/build/pub_sub_cpp/CMakeFiles/install/strip.dir
+/home/legacy/youtube_robot/build/pub_sub_cpp/CMakeFiles/install/local.dir
+/home/legacy/youtube_robot/build/pub_sub_cpp/CMakeFiles/install.dir
+/home/legacy/youtube_robot/build/pub_sub_cpp/CMakeFiles/list_install_components.dir
+/home/legacy/youtube_robot/build/pub_sub_cpp/CMakeFiles/rebuild_cache.dir
+/home/legacy/youtube_robot/build/pub_sub_cpp/CMakeFiles/edit_cache.dir
+/home/legacy/youtube_robot/build/pub_sub_cpp/CMakeFiles/test.dir
+/home/legacy/youtube_robot/build/pub_sub_cpp/CMakeFiles/publicador_movimiento.dir
+/home/legacy/youtube_robot/build/pub_sub_cpp/CMakeFiles/pub_sub_cpp_uninstall.dir
+/home/legacy/youtube_robot/build/pub_sub_cpp/CMakeFiles/uninstall.dir

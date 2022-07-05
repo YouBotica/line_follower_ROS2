@@ -1,0 +1,61 @@
+[0.953s] Invoking command in '/home/legacy/youtube_robot/build/pub_sub_cpp': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/legacy/youtube_robot/src/pub_sub_cpp -DCMAKE_INSTALL_PREFIX=/home/legacy/youtube_robot/install/pub_sub_cpp
+[1.023s] -- The C compiler identification is GNU 9.4.0
+[1.092s] -- The CXX compiler identification is GNU 9.4.0
+[1.097s] -- Check for working C compiler: /usr/bin/cc
+[1.177s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.178s] -- Detecting C compiler ABI info
+[1.258s] -- Detecting C compiler ABI info - done
+[1.272s] -- Detecting C compile features
+[1.272s] -- Detecting C compile features - done
+[1.276s] -- Check for working CXX compiler: /usr/bin/c++
+[1.369s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.371s] -- Detecting CXX compiler ABI info
+[1.466s] -- Detecting CXX compiler ABI info - done
+[1.480s] -- Detecting CXX compile features
+[1.481s] -- Detecting CXX compile features - done
+[1.485s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.514s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.515s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.951s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.961s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.045s] -- Found OpenSSL: /home/linuxbrew/.linuxbrew/Cellar/openssl@1.1/1.1.1k/lib/libcrypto.so (found version "1.1.1k")  
+[2.092s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.219s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.308s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.312s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.313s] -- Looking for pthread.h
+[2.422s] -- Looking for pthread.h - found
+[2.422s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.530s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.530s] -- Looking for pthread_create in pthreads
+[2.607s] -- Looking for pthread_create in pthreads - not found
+[2.608s] -- Looking for pthread_create in pthread
+[2.717s] -- Looking for pthread_create in pthread - found
+[2.719s] -- Found Threads: TRUE  
+[2.925s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[2.971s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.064s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.065s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.065s] -- Configured cppcheck include dirs: 
+[3.065s] -- Configured cppcheck exclude dirs and/or files: 
+[3.066s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.067s] -- Configured cpplint exclude dirs and/or files: 
+[3.068s] -- Added test 'lint_cmake' to check CMake code style
+[3.069s] -- Added test 'uncrustify' to check C / C++ code style
+[3.069s] -- Configured uncrustify additional arguments: 
+[3.070s] -- Added test 'xmllint' to check XML markup files
+[3.073s] -- Configuring done
+[3.082s] -- Generating done
+[3.084s] -- Build files have been written to: /home/legacy/youtube_robot/build/pub_sub_cpp
+[3.091s] Invoked command in '/home/legacy/youtube_robot/build/pub_sub_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/legacy/youtube_robot/src/pub_sub_cpp -DCMAKE_INSTALL_PREFIX=/home/legacy/youtube_robot/install/pub_sub_cpp
+[3.094s] Invoking command in '/home/legacy/youtube_robot/build/pub_sub_cpp': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/legacy/youtube_robot/build/pub_sub_cpp -- -j8 -l8
+[3.139s] [35m[1mScanning dependencies of target publicador_movimiento[0m
+[3.187s] [ 50%] [32mBuilding CXX object CMakeFiles/publicador_movimiento.dir/src/pub_sub.cpp.o[0m
+[9.478s] [100%] [32m[1mLinking CXX executable publicador_movimiento[0m
+[9.771s] /home/linuxbrew/.linuxbrew/bin/ld: CMakeFiles/publicador_movimiento.dir/src/pub_sub.cpp.o: in function `rclcpp::create_subscription_factory<nav_msgs::msg::Odometry_<std::allocator<void> >, std::_Bind<void (PublicadorMovimiento::*(PublicadorMovimiento*, std::_Placeholder<1>))(std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >) const>, std::allocator<void>, nav_msgs::msg::Odometry_<std::allocator<void> >, rclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void> > >, rclcpp::message_memory_strategy::MessageMemoryStrategy<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void> > >(std::_Bind<void (PublicadorMovimiento::*(PublicadorMovimiento*, std::_Placeholder<1>))(std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >) const>&&, rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> > const&, rclcpp::message_memory_strategy::MessageMemoryStrategy<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void> >::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<nav_msgs::msg::Odometry_<std::allocator<void> > > >)::{lambda(rclcpp::node_interfaces::NodeBaseInterface*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::QoS const&)#1}::operator()(rclcpp::node_interfaces::NodeBaseInterface*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::QoS const&) const':
+[9.771s] pub_sub.cpp:(.text._ZZN6rclcpp27create_subscription_factoryIN8nav_msgs3msg9Odometry_ISaIvEEESt5_BindIFM20PublicadorMovimientoKFvSt10shared_ptrIS5_EEPS7_St12_PlaceholderILi1EEEES4_S5_NS_12SubscriptionIS5_S4_NS_23message_memory_strategy21MessageMemoryStrategyIS5_S4_EEEESK_EENS_19SubscriptionFactoryEOT0_RKNS_32SubscriptionOptionsWithAllocatorIT1_EENT4_9SharedPtrES8_INS_16topic_statistics27SubscriptionTopicStatisticsIT2_EEEENKUlPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3QoSEE_clES13_S1B_S1E_[_ZZN6rclcpp27create_subscription_factoryIN8nav_msgs3msg9Odometry_ISaIvEEESt5_BindIFM20PublicadorMovimientoKFvSt10shared_ptrIS5_EEPS7_St12_PlaceholderILi1EEEES4_S5_NS_12SubscriptionIS5_S4_NS_23message_memory_strategy21MessageMemoryStrategyIS5_S4_EEEESK_EENS_19SubscriptionFactoryEOT0_RKNS_32SubscriptionOptionsWithAllocatorIT1_EENT4_9SharedPtrES8_INS_16topic_statistics27SubscriptionTopicStatisticsIT2_EEEENKUlPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3QoSEE_clES13_S1B_S1E_]+0x5c): undefined reference to `rosidl_message_type_support_t const* rosidl_typesupport_cpp::get_message_type_support_handle<nav_msgs::msg::Odometry_<std::allocator<void> > >()'
+[9.771s] collect2: error: ld returned 1 exit status
+[9.773s] make[2]: *** [CMakeFiles/publicador_movimiento.dir/build.make:136: publicador_movimiento] Error 1
+[9.773s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/publicador_movimiento.dir/all] Error 2
+[9.773s] make: *** [Makefile:141: all] Error 2
+[9.776s] Invoked command in '/home/legacy/youtube_robot/build/pub_sub_cpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/legacy/youtube_robot/build/pub_sub_cpp -- -j8 -l8

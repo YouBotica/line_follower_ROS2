@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target publicador_movimiento[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/publicador_movimiento.dir/src/pub_sub.cpp.o[0m
+[01m[K/home/legacy/youtube_robot/src/pub_sub_cpp/src/pub_sub.cpp:[m[K In constructor ‘[01m[KPublicadorMovimiento::PublicadorMovimiento()[m[K’:
+[01m[K/home/legacy/youtube_robot/src/pub_sub_cpp/src/pub_sub.cpp:22:38:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KPublicadorMovimiento[m[K’ does not have any field named ‘[01m[Kcount_[m[K’
+   22 |     : Node("publicador_movimiento"), [01;31m[Kcount_[m[K(0)
+      |                                      [01;31m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/publicador_movimiento.dir/build.make:63: CMakeFiles/publicador_movimiento.dir/src/pub_sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/publicador_movimiento.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

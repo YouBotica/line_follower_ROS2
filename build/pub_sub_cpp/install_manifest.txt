@@ -1,0 +1,16 @@
+/home/legacy/youtube_robot/install/pub_sub_cpp/lib/pub_sub_cpp/publicador_movimiento
+/home/legacy/youtube_robot/install/pub_sub_cpp/share/ament_index/resource_index/package_run_dependencies/pub_sub_cpp
+/home/legacy/youtube_robot/install/pub_sub_cpp/share/ament_index/resource_index/parent_prefix_path/pub_sub_cpp
+/home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/environment/ament_prefix_path.sh
+/home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/environment/ament_prefix_path.dsv
+/home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/environment/path.sh
+/home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/environment/path.dsv
+/home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/local_setup.bash
+/home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/local_setup.sh
+/home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/local_setup.zsh
+/home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/local_setup.dsv
+/home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/package.dsv
+/home/legacy/youtube_robot/install/pub_sub_cpp/share/ament_index/resource_index/packages/pub_sub_cpp
+/home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/cmake/pub_sub_cppConfig.cmake
+/home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/cmake/pub_sub_cppConfig-version.cmake
+/home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/package.xml

@@ -1,0 +1,51 @@
+[2.500s] Invoking command in '/home/legacy/youtube_robot/src/modelo_robot': PYTHONPATH=/home/legacy/youtube_robot/install/modelo_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/modelo_robot build --build-base /home/legacy/youtube_robot/build/modelo_robot/build install --prefix /home/legacy/youtube_robot/install/modelo_robot --record /home/legacy/youtube_robot/build/modelo_robot/install.log --single-version-externally-managed
+[2.937s] /home/legacy/.local/lib/python3.8/site-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.937s]   warnings.warn(
+[2.938s] /home/legacy/.local/lib/python3.8/site-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[2.938s]   warnings.warn(
+[3.794s] running egg_info
+[3.794s] creating ../../build/modelo_robot/modelo_robot.egg-info
+[3.897s] writing ../../build/modelo_robot/modelo_robot.egg-info/PKG-INFO
+[3.978s] writing dependency_links to ../../build/modelo_robot/modelo_robot.egg-info/dependency_links.txt
+[4.289s] writing requirements to ../../build/modelo_robot/modelo_robot.egg-info/requires.txt
+[4.360s] writing top-level names to ../../build/modelo_robot/modelo_robot.egg-info/top_level.txt
+[4.363s] writing manifest file '../../build/modelo_robot/modelo_robot.egg-info/SOURCES.txt'
+[4.482s] reading manifest file '../../build/modelo_robot/modelo_robot.egg-info/SOURCES.txt'
+[4.483s] writing manifest file '../../build/modelo_robot/modelo_robot.egg-info/SOURCES.txt'
+[4.484s] running build
+[4.484s] running build_py
+[4.484s] creating /home/legacy/youtube_robot/build/modelo_robot/build
+[4.484s] creating /home/legacy/youtube_robot/build/modelo_robot/build/lib
+[4.484s] creating /home/legacy/youtube_robot/build/modelo_robot/build/lib/modelo_robot
+[4.485s] copying modelo_robot/__init__.py -> /home/legacy/youtube_robot/build/modelo_robot/build/lib/modelo_robot
+[4.485s] running install
+[4.485s] /home/legacy/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.485s]   warnings.warn(
+[4.493s] running install_lib
+[4.603s] creating /home/legacy/youtube_robot/install/modelo_robot/lib/python3.8/site-packages/modelo_robot
+[4.603s] copying /home/legacy/youtube_robot/build/modelo_robot/build/lib/modelo_robot/__init__.py -> /home/legacy/youtube_robot/install/modelo_robot/lib/python3.8/site-packages/modelo_robot
+[4.604s] byte-compiling /home/legacy/youtube_robot/install/modelo_robot/lib/python3.8/site-packages/modelo_robot/__init__.py to __init__.cpython-38.pyc
+[4.604s] running install_data
+[4.627s] creating /home/legacy/youtube_robot/install/modelo_robot/share/ament_index
+[4.627s] creating /home/legacy/youtube_robot/install/modelo_robot/share/ament_index/resource_index
+[4.627s] creating /home/legacy/youtube_robot/install/modelo_robot/share/ament_index/resource_index/packages
+[4.627s] copying resource/modelo_robot -> /home/legacy/youtube_robot/install/modelo_robot/share/ament_index/resource_index/packages
+[4.628s] copying package.xml -> /home/legacy/youtube_robot/install/modelo_robot/share/modelo_robot
+[4.628s] creating /home/legacy/youtube_robot/install/modelo_robot/share/modelo_robot/urdf
+[4.628s] copying urdf/Seguidor_linea_robot.urdf -> /home/legacy/youtube_robot/install/modelo_robot/share/modelo_robot/urdf
+[4.628s] creating /home/legacy/youtube_robot/install/modelo_robot/share/modelo_robot/launch
+[4.628s] copying launch/gazebo.launch.py -> /home/legacy/youtube_robot/install/modelo_robot/share/modelo_robot/launch
+[4.628s] copying launch/display.launch.py -> /home/legacy/youtube_robot/install/modelo_robot/share/modelo_robot/launch
+[4.628s] creating /home/legacy/youtube_robot/install/modelo_robot/share/modelo_robot/meshes
+[4.629s] copying meshes/Rueda_derecha_link.STL -> /home/legacy/youtube_robot/install/modelo_robot/share/modelo_robot/meshes
+[4.634s] copying meshes/Rueda_castor_link.STL -> /home/legacy/youtube_robot/install/modelo_robot/share/modelo_robot/meshes
+[4.636s] copying meshes/Rueda_izquierda_link.STL -> /home/legacy/youtube_robot/install/modelo_robot/share/modelo_robot/meshes
+[4.641s] copying meshes/base_link.STL -> /home/legacy/youtube_robot/install/modelo_robot/share/modelo_robot/meshes
+[4.647s] copying meshes/Base_castor_link.STL -> /home/legacy/youtube_robot/install/modelo_robot/share/modelo_robot/meshes
+[4.649s] creating /home/legacy/youtube_robot/install/modelo_robot/share/modelo_robot/worlds
+[4.650s] copying worlds/world.world -> /home/legacy/youtube_robot/install/modelo_robot/share/modelo_robot/worlds
+[4.651s] running install_egg_info
+[4.764s] Copying ../../build/modelo_robot/modelo_robot.egg-info to /home/legacy/youtube_robot/install/modelo_robot/lib/python3.8/site-packages/modelo_robot-0.0.0-py3.8.egg-info
+[4.765s] running install_scripts
+[4.941s] writing list of installed files to '/home/legacy/youtube_robot/build/modelo_robot/install.log'
+[4.994s] Invoked command in '/home/legacy/youtube_robot/src/modelo_robot' returned '0': PYTHONPATH=/home/legacy/youtube_robot/install/modelo_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/modelo_robot build --build-base /home/legacy/youtube_robot/build/modelo_robot/build install --prefix /home/legacy/youtube_robot/install/modelo_robot --record /home/legacy/youtube_robot/build/modelo_robot/install.log --single-version-externally-managed

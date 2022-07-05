@@ -1,0 +1,27 @@
+[3.140s] Invoking command in '/home/legacy/youtube_robot/src/publicador_python': AMENT_PREFIX_PATH=/home/legacy/youtube_robot/install/modelo_robot:${AMENT_PREFIX_PATH} PYTHONPATH=/home/legacy/youtube_robot/install/publicador_python/lib/python3.8/site-packages:/home/legacy/youtube_robot/install/modelo_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/publicador_python build --build-base /home/legacy/youtube_robot/build/publicador_python/build install --prefix /home/legacy/youtube_robot/install/publicador_python --record /home/legacy/youtube_robot/build/publicador_python/install.log --single-version-externally-managed
+[3.620s] /home/legacy/.local/lib/python3.8/site-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.620s]   warnings.warn(
+[3.621s] /home/legacy/.local/lib/python3.8/site-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[3.621s]   warnings.warn(
+[4.570s] running egg_info
+[4.654s] writing ../../build/publicador_python/publicador_python.egg-info/PKG-INFO
+[4.722s] writing dependency_links to ../../build/publicador_python/publicador_python.egg-info/dependency_links.txt
+[4.915s] writing entry points to ../../build/publicador_python/publicador_python.egg-info/entry_points.txt
+[5.044s] writing requirements to ../../build/publicador_python/publicador_python.egg-info/requires.txt
+[5.119s] writing top-level names to ../../build/publicador_python/publicador_python.egg-info/top_level.txt
+[5.225s] reading manifest file '../../build/publicador_python/publicador_python.egg-info/SOURCES.txt'
+[5.226s] writing manifest file '../../build/publicador_python/publicador_python.egg-info/SOURCES.txt'
+[5.226s] running build
+[5.226s] running build_py
+[5.227s] running install
+[5.227s] /home/legacy/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.227s]   warnings.warn(
+[5.233s] running install_lib
+[5.333s] running install_data
+[5.351s] running install_egg_info
+[5.439s] removing '/home/legacy/youtube_robot/install/publicador_python/lib/python3.8/site-packages/publicador_python-0.0.0-py3.8.egg-info' (and everything under it)
+[5.440s] Copying ../../build/publicador_python/publicador_python.egg-info to /home/legacy/youtube_robot/install/publicador_python/lib/python3.8/site-packages/publicador_python-0.0.0-py3.8.egg-info
+[5.441s] running install_scripts
+[5.619s] Installing publicador_cmd script to /home/legacy/youtube_robot/install/publicador_python/lib/publicador_python
+[5.619s] Installing subscriber_odom script to /home/legacy/youtube_robot/install/publicador_python/lib/publicador_python
+[5.620s] writing list of installed files to '/home/legacy/youtube_robot/build/publicador_python/install.log'
