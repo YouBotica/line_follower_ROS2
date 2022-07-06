@@ -1,0 +1,49 @@
+[0.817s] Invoking command in '/home/legacy/youtube_robot/build/pub_sub_cpp': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/legacy/youtube_robot/build/pub_sub_cpp -- -j8 -l8
+[0.861s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.888s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.250s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.255s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.428s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.500s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.502s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.699s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.747s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.838s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.916s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.917s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.918s] -- Configured cppcheck include dirs: 
+[1.918s] -- Configured cppcheck exclude dirs and/or files: 
+[1.919s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.919s] -- Configured cpplint exclude dirs and/or files: 
+[1.919s] -- Added test 'lint_cmake' to check CMake code style
+[1.921s] -- Added test 'uncrustify' to check C / C++ code style
+[1.921s] -- Configured uncrustify additional arguments: 
+[1.921s] -- Added test 'xmllint' to check XML markup files
+[1.924s] -- Configuring done
+[1.942s] -- Generating done
+[1.943s] -- Build files have been written to: /home/legacy/youtube_robot/build/pub_sub_cpp
+[1.985s] [35m[1mScanning dependencies of target publicador_movimiento[0m
+[2.020s] [ 50%] [32mBuilding CXX object CMakeFiles/publicador_movimiento.dir/src/pub_sub.cpp.o[0m
+[7.876s] [100%] [32m[1mLinking CXX executable publicador_movimiento[0m
+[8.244s] [100%] Built target publicador_movimiento
+[8.257s] Invoked command in '/home/legacy/youtube_robot/build/pub_sub_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/legacy/youtube_robot/build/pub_sub_cpp -- -j8 -l8
+[8.302s] Invoking command in '/home/legacy/youtube_robot/build/pub_sub_cpp': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/legacy/youtube_robot/build/pub_sub_cpp
+[8.316s] -- Install configuration: ""
+[8.316s] -- Installing: /home/legacy/youtube_robot/install/pub_sub_cpp/lib/pub_sub_cpp/publicador_movimiento
+[8.319s] -- Set runtime path of "/home/legacy/youtube_robot/install/pub_sub_cpp/lib/pub_sub_cpp/publicador_movimiento" to ""
+[8.320s] -- Up-to-date: /home/legacy/youtube_robot/install/pub_sub_cpp/share/ament_index/resource_index/package_run_dependencies/pub_sub_cpp
+[8.320s] -- Up-to-date: /home/legacy/youtube_robot/install/pub_sub_cpp/share/ament_index/resource_index/parent_prefix_path/pub_sub_cpp
+[8.320s] -- Installing: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/environment/ament_prefix_path.sh
+[8.320s] -- Installing: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/environment/ament_prefix_path.dsv
+[8.320s] -- Installing: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/environment/path.sh
+[8.321s] -- Installing: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/environment/path.dsv
+[8.321s] -- Up-to-date: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/local_setup.bash
+[8.321s] -- Up-to-date: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/local_setup.sh
+[8.321s] -- Up-to-date: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/local_setup.zsh
+[8.321s] -- Installing: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/local_setup.dsv
+[8.322s] -- Installing: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/package.dsv
+[8.322s] -- Up-to-date: /home/legacy/youtube_robot/install/pub_sub_cpp/share/ament_index/resource_index/packages/pub_sub_cpp
+[8.322s] -- Up-to-date: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/cmake/pub_sub_cppConfig.cmake
+[8.322s] -- Up-to-date: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/cmake/pub_sub_cppConfig-version.cmake
+[8.322s] -- Up-to-date: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/package.xml
+[8.333s] Invoked command in '/home/legacy/youtube_robot/build/pub_sub_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/legacy/youtube_robot/build/pub_sub_cpp
