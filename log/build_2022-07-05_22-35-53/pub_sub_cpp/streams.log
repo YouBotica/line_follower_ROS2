@@ -1,0 +1,22 @@
+[0.831s] Invoking command in '/home/legacy/youtube_robot/build/pub_sub_cpp': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/legacy/youtube_robot/build/pub_sub_cpp -- -j8 -l8
+[0.994s] [100%] Built target publicador_movimiento
+[1.006s] Invoked command in '/home/legacy/youtube_robot/build/pub_sub_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/legacy/youtube_robot/build/pub_sub_cpp -- -j8 -l8
+[1.044s] Invoking command in '/home/legacy/youtube_robot/build/pub_sub_cpp': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/legacy/youtube_robot/build/pub_sub_cpp
+[1.054s] -- Install configuration: ""
+[1.054s] -- Up-to-date: /home/legacy/youtube_robot/install/pub_sub_cpp/lib/pub_sub_cpp/publicador_movimiento
+[1.054s] -- Up-to-date: /home/legacy/youtube_robot/install/pub_sub_cpp/share/ament_index/resource_index/package_run_dependencies/pub_sub_cpp
+[1.055s] -- Up-to-date: /home/legacy/youtube_robot/install/pub_sub_cpp/share/ament_index/resource_index/parent_prefix_path/pub_sub_cpp
+[1.055s] -- Up-to-date: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/environment/ament_prefix_path.sh
+[1.055s] -- Up-to-date: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/environment/ament_prefix_path.dsv
+[1.055s] -- Up-to-date: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/environment/path.sh
+[1.055s] -- Up-to-date: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/environment/path.dsv
+[1.055s] -- Up-to-date: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/local_setup.bash
+[1.055s] -- Up-to-date: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/local_setup.sh
+[1.055s] -- Up-to-date: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/local_setup.zsh
+[1.055s] -- Up-to-date: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/local_setup.dsv
+[1.056s] -- Installing: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/package.dsv
+[1.056s] -- Up-to-date: /home/legacy/youtube_robot/install/pub_sub_cpp/share/ament_index/resource_index/packages/pub_sub_cpp
+[1.056s] -- Up-to-date: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/cmake/pub_sub_cppConfig.cmake
+[1.056s] -- Up-to-date: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/cmake/pub_sub_cppConfig-version.cmake
+[1.056s] -- Up-to-date: /home/legacy/youtube_robot/install/pub_sub_cpp/share/pub_sub_cpp/package.xml
+[1.059s] Invoked command in '/home/legacy/youtube_robot/build/pub_sub_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/legacy/youtube_robot/build/pub_sub_cpp
