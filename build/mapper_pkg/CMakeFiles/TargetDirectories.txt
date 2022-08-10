@@ -1,9 +1,0 @@
-/home/legacy/youtube_robot/build/mapper_pkg/CMakeFiles/install/strip.dir
-/home/legacy/youtube_robot/build/mapper_pkg/CMakeFiles/install/local.dir
-/home/legacy/youtube_robot/build/mapper_pkg/CMakeFiles/install.dir
-/home/legacy/youtube_robot/build/mapper_pkg/CMakeFiles/list_install_components.dir
-/home/legacy/youtube_robot/build/mapper_pkg/CMakeFiles/rebuild_cache.dir
-/home/legacy/youtube_robot/build/mapper_pkg/CMakeFiles/edit_cache.dir
-/home/legacy/youtube_robot/build/mapper_pkg/CMakeFiles/test.dir
-/home/legacy/youtube_robot/build/mapper_pkg/CMakeFiles/mapper_pkg_uninstall.dir
-/home/legacy/youtube_robot/build/mapper_pkg/CMakeFiles/uninstall.dir

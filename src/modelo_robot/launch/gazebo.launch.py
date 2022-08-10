@@ -12,6 +12,7 @@ from launch_ros.actions import Node
 from launch_ros.substitutions import FindPackageShare
 from launch.actions import RegisterEventHandler
 from launch.event_handlers import OnProcessExit
+from launch.substitutions import Command, LaunchConfiguration, PythonExpression
   
 def generate_launch_description():
  
@@ -32,6 +33,12 @@ def generate_launch_description():
         default_value='true',
         description='Use simulation (Gazebo) clock if true'
         )
+    
+    declare_world_cmd = DeclareLaunchArgument(
+        name='world',
+        default_value=world_path,
+        description='Full path to the world model file to load')
+    
 
     robot_name_in_model = 'Seguidor_linea_robot'
 
@@ -71,12 +78,6 @@ def generate_launch_description():
         name='joint_state_publisher',
     )
  
-
-    '''declare_world_cmd = DeclareLaunchArgument(
-        name='world',
-        default_value=world_path,
-        description='Full path to the world model file to load'
-        ) '''
  
     #spawn the robot 
     spawn = Node(
@@ -91,10 +92,19 @@ def generate_launch_description():
     )
 
 
-    gazebo = ExecuteProcess(
+    '''gazebo = ExecuteProcess(
         cmd=['gazebo', world_path, '--verbose', '-s', 'libgazebo_ros_factory.so', 
         '-s', 'libgazebo_ros_init.so'], output='screen',
-        )
+        )'''
+
+    # Start Gazebo server
+    start_gazebo_server_cmd = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(os.path.join(pkg_gazebo_ros, 'launch', 'gzserver.launch.py')),
+        launch_arguments={'world': world}.items())
+ 
+    # Start Gazebo client    
+    start_gazebo_client_cmd = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(os.path.join(pkg_gazebo_ros, 'launch', 'gzclient.launch.py')))
     
     robot_localization_node = Node(
         package='robot_localization',
@@ -112,10 +122,11 @@ def generate_launch_description():
      
     return LaunchDescription([
     declare_use_sim_time_cmd,
+    declare_world_cmd, 
     rviz2,
     spawn,
     robot_state_publisher_node,
     robot_localization_node,
-    map_frame,
-    gazebo
+    start_gazebo_server_cmd,
+    start_gazebo_client_cmd
 ])

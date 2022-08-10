@@ -376,7 +376,7 @@
     type="fixed">
     <origin
       xyz="0.0 0 0.0"
-      rpy="0 0 0" />
+      rpy="0 -0.07 0" />
     <parent
       link="base_link" />
     <child
@@ -384,6 +384,93 @@
     <axis
       xyz="1 0 0" />
   </joint>
+
+    <!-- CAMERA -->
+
+  <link
+    name="camera_link">
+    <inertial>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="0.03" />
+      <inertia
+        ixx="1E-5"
+        ixy="-6.30057515429682E-19"
+        ixz="9.52689050201753E-19"
+        iyy="1E-5"
+        iyz="-2.5410988417629E-20"
+        izz="1E-5" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+    <geometry>
+      <box size="0.02 0.02 0.02"/>
+    </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 0.913725490196078 0.0313725490196078 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+          <box size="0.02 0.02 0.02"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="camera_joint" type="fixed">
+    <parent link="base_link" />
+    <child link = "camera_link" />
+    <origin xyz="0.05 0.0 0.01" rpy="0.0 0.0 0.0" />
+  </joint>
+
+  <gazebo reference="camera_link">
+    <sensor type="camera" name="camera1">
+      <update_rate>30.0</update_rate>
+      <camera name="head">
+        <horizontal_fov>1.3962634</horizontal_fov>
+        <image>
+          <width>800</width>
+          <height>800</height>
+          <format>R8G8B8</format>
+        </image>
+        <clip>
+          <near>0.02</near>
+          <far>300</far>
+        </clip>
+        <noise>
+          <type>gaussian</type>
+          <!-- Noise is sampled independently per pixel on each frame.
+               That pixel's noise value is added to each of its color
+               channels, which at that point lie in the range [0,1]. -->
+          <mean>0.0</mean>
+          <stddev>0.007</stddev>
+        </noise>
+      </camera>
+      <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+        <alwaysOn>true</alwaysOn>
+        <updateRate>0.0</updateRate>
+        <cameraName>big_arm/camera1</cameraName>
+        <imageTopicName>image_raw</imageTopicName>
+        <cameraInfoTopicName>camera_info</cameraInfoTopicName>
+        <frameName>camera_link</frameName>
+        <hackBaseline>0.07</hackBaseline>
+        <distortionK1>0.0</distortionK1>
+        <distortionK2>0.0</distortionK2>
+        <distortionK3>0.0</distortionK3>
+        <distortionT1>0.0</distortionT1>
+        <distortionT2>0.0</distortionT2>
+      </plugin>
+    </sensor>
+  </gazebo>
 
   <!--LIDAR CONFIGURATION-->
 
@@ -443,7 +530,7 @@
         <topicName>imu_data</topicName>
         <bodyName>imu_link</bodyName>
         <updateRateHZ>10.0</updateRateHZ>
-        <gaussianNoise>0.005</gaussianNoise>
+        <gaussianNoise>0.03</gaussianNoise>
         <xyzOffset>0 0 0</xyzOffset>
         <rpyOffset>0 0 0</rpyOffset>
         <frameName>imu_link</frameName>
@@ -505,6 +592,7 @@
         <update_rate>100</update_rate>
         <joint_name>Base_castor_joint</joint_name>
         <joint_name>Rueda_castor_joint</joint_name>
+        <joint_name>camera_joint</joint_name>
     </plugin>
   </gazebo>
 
