@@ -12,18 +12,19 @@ from launch_ros.actions import Node
 from launch_ros.substitutions import FindPackageShare
 from launch.actions import RegisterEventHandler
 from launch.event_handlers import OnProcessExit
+from launch.substitutions import Command, LaunchConfiguration, PythonExpression
   
 def generate_launch_description():
  
  
     model_arg = DeclareLaunchArgument(name='model', description='Absolute path to robot urdf file')
     pkg_gazebo_ros = get_package_share_directory('gazebo_ros')
-    use_sim_time = LaunchConfiguration('use_sim_time')
+    use_sim_time = LaunchConfiguration('use_sim_time') 
     package_name = 'modelo_robot'
     pkg_share = FindPackageShare(package=package_name).find(package_name)
     pkg_gazebo_ros = FindPackageShare(package='gazebo_ros').find('gazebo_ros') 
 
-    world_file_path = 'world.world'
+    world_file_path = 'museum.world'
     world = LaunchConfiguration('world')
     world_path = os.path.join(pkg_share, 'worlds',  world_file_path)
 
@@ -32,6 +33,12 @@ def generate_launch_description():
         default_value='true',
         description='Use simulation (Gazebo) clock if true'
         )
+    
+    declare_world_cmd = DeclareLaunchArgument(
+        name='world',
+        default_value=world_path,
+        description='Full path to the world model file to load')
+    
 
     robot_name_in_model = 'Seguidor_linea_robot'
 
@@ -71,12 +78,6 @@ def generate_launch_description():
         name='joint_state_publisher',
     )
  
-
-    declare_world_cmd = DeclareLaunchArgument(
-        name='world',
-        default_value=world_path,
-        description='Full path to the world model file to load'
-        )
  
     #spawn the robot 
     spawn = Node(
@@ -91,27 +92,41 @@ def generate_launch_description():
     )
 
 
-
-    gazebo = ExecuteProcess(
+    '''gazebo = ExecuteProcess(
         cmd=['gazebo', world_path, '--verbose', '-s', 'libgazebo_ros_factory.so', 
         '-s', 'libgazebo_ros_init.so'], output='screen',
-        )
+        )'''
 
-
-
-    # Delay rviz start after `joint_state_broadcaster`
-    delay_rviz = RegisterEventHandler(
-        event_handler=OnProcessExit(
-            target_action=gazebo,
-            on_exit=[rviz2],
-        )
+    # Start Gazebo server
+    start_gazebo_server_cmd = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(os.path.join(pkg_gazebo_ros, 'launch', 'gzserver.launch.py')),
+        launch_arguments={'world': world}.items())
+ 
+    # Start Gazebo client    
+    start_gazebo_client_cmd = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(os.path.join(pkg_gazebo_ros, 'launch', 'gzclient.launch.py')))
+    
+    robot_localization_node = Node(
+        package='robot_localization',
+        executable='ekf_node',
+        name='ekf_filter_node',
+        output='screen',
+        parameters=[os.path.join(pkg_share, 'config', 'ekf.yaml'), {'use_sim_time': use_sim_time}]
     )
+
+    map_frame = ExecuteProcess(
+        cmd=['ros2', 'run', 'tf2_ros', 'static_transform_publisher', '-1.0', '-1.0', '0', '0', '0', '0', 'map'
+        , 'odom_link'], output='screen',
+        )
 
      
     return LaunchDescription([
     declare_use_sim_time_cmd,
+    declare_world_cmd, 
+    rviz2,
     spawn,
-    start_joint_state_publisher_cmd, 
     robot_state_publisher_node,
-    gazebo
+    robot_localization_node,
+    start_gazebo_server_cmd,
+    start_gazebo_client_cmd
 ])

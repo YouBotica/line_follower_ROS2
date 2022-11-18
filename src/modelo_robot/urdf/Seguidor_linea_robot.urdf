@@ -6,6 +6,13 @@
   name="Seguidor_linea_robot"-->
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="mobile_robot">
   
+  <!--link name="odom_frame"/>
+  <joint name="odom_joint" type="fixed">
+    <parent link="odom_frame" />
+    <child link = "base_link" />
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+  </joint-->
+
   <link
     name="base_link">
     <inertial>
@@ -27,7 +34,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/legacy/youtube_robot/src/modelo_robot/meshes/base_link.STL" />
+          filename="package://modelo_robot/meshes/base_link.STL" />
       </geometry>
       <material
         name="">
@@ -41,24 +48,24 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/legacy/youtube_robot/src/modelo_robot/meshes/base_link.STL" />
+          filename="package://modelo_robot/meshes/base_link.STL" />
       </geometry>
     </collision>
   </link>
 
-  <!--link name="world"/>
-  <joint name="world_joint" type="fixed">
-    <parent link="world" />
+  <link name="base_link_ground"/>
+  <joint name="ground_base_joint" type="fixed">
+    <parent link="base_link_ground" />
     <child link = "base_link" />
-    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
-  </joint-->
+    <origin xyz="0.0 0.0 0.05" rpy="0.0 0.0 0.0" />
+  </joint>
 
   <gazebo reference="base_link">
     <mu1>200</mu1>
     <mu2>200</mu2>
     <kp>1000000</kp>
     <kd>1</kd>
-    <material>Gazebo/White</material>
+    <material>Gazebo/Yellow</material>
   </gazebo>
 
   <link
@@ -82,7 +89,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/legacy/youtube_robot/src/modelo_robot/meshes/Rueda_izquierda_link.STL" />
+          filename="package://modelo_robot/meshes/Rueda_izquierda_link.STL" />
       </geometry>
       <material
         name="">
@@ -96,7 +103,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/legacy/youtube_robot/src/modelo_robot/meshes/Rueda_izquierda_link.STL" />
+          filename="package://modelo_robot/meshes/Rueda_izquierda_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -122,7 +129,7 @@
     <mu2>200</mu2>
     <kp>1000000</kp>
     <kd>1</kd>
-    <material>Gazebo/White</material>
+    <material>Gazebo/Gray</material>
   </gazebo>
 
 
@@ -147,7 +154,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/legacy/youtube_robot/src/modelo_robot/meshes/Rueda_derecha_link.STL" />
+          filename="package://modelo_robot/meshes/Rueda_derecha_link.STL" />
       </geometry>
       <material
         name="">
@@ -161,7 +168,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/legacy/youtube_robot/src/modelo_robot/meshes/Rueda_derecha_link.STL" />
+          filename="package://modelo_robot/meshes/Rueda_derecha_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -171,7 +178,7 @@
     <mu2>200</mu2>
     <kp>1000000</kp>
     <kd>1</kd>
-    <material>Gazebo/White</material>
+    <material>Gazebo/Gray</material>
   </gazebo>
 
   <joint
@@ -198,7 +205,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <mass
-        value="0.1" />
+        value="0.5" />
       <inertia
         ixx="0.00004"
         ixy="0"
@@ -213,7 +220,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/legacy/youtube_robot/src/modelo_robot/meshes/Base_castor_link.STL" />
+          filename="package://modelo_robot/meshes/Base_castor_link.STL" />
       </geometry>
       <material
         name="">
@@ -227,9 +234,10 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/legacy/youtube_robot/src/modelo_robot/meshes/Base_castor_link.STL" />
+          filename="package://modelo_robot/meshes/Base_castor_link.STL" />
       </geometry>
     </collision>
+    
   </link>
 
   <gazebo reference="Base_castor_link">
@@ -237,7 +245,7 @@
     <mu2>0.1</mu2>
     <kp>1000000</kp>
     <kd>1</kd>
-    <material>Gazebo/White</material>
+    <material>Gazebo/Gray</material>
   </gazebo>
 
   <joint
@@ -252,9 +260,6 @@
       link="Base_castor_link" />
     <axis
       xyz="0 0 1" />
-    <dynamics
-      damping="0.1"
-      friction="0.1" />
   </joint>
   <link
     name="Rueda_castor_link">
@@ -270,7 +275,7 @@
         ixz="0"
         iyy="0.0004"
         iyz="0"
-        izz="0.0001" />
+        izz="0.00001" />
     </inertial>
     <visual>
       <origin
@@ -278,7 +283,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/legacy/youtube_robot/src/modelo_robot/meshes/Rueda_castor_link.STL" />
+          filename="package://modelo_robot/meshes/Rueda_castor_link.STL" />
       </geometry>
       <material
         name="">
@@ -292,17 +297,17 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/legacy/youtube_robot/src/modelo_robot/meshes/Rueda_castor_link.STL" />
+          filename="package://modelo_robot/meshes/Rueda_castor_link.STL" />
       </geometry>
     </collision>
   </link>
 
   <gazebo reference="Rueda_castor_link">
-    <mu1>1</mu1>
-    <mu2>1</mu2>
+    <mu1>0.1</mu1>
+    <mu2>0.1</mu2>
     <kp>1000000</kp>
     <kd>1</kd>
-    <material>Gazebo/White</material>
+    <material>Gazebo/Gray</material>
   </gazebo>
 
   <joint
@@ -317,8 +322,280 @@
       link="Rueda_castor_link" />
     <axis
       xyz="0 0 1" />
-    <dynamics
-      damping="0.1"
-      friction="0.1" />
   </joint>
+
+  <link name="Lidar_link">
+  <inertial>
+    <origin xyz="0 0 0.0" rpy="0 0 0.0"/>
+    <mass value="0.01"/>
+    <inertia ixx="0.0001"  ixy="0"  ixz="0" iyy="0.0001" iyz="0" izz="0.0001" />
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+       <cylinder radius="0.01" length="0.05"/>
+    </geometry>
+    <material
+      name="">
+      <color
+        rgba="1 1 0 0.5" />
+    </material>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0.0" rpy="0 0 0"/>
+    <geometry>
+       <cylinder radius="0.01" length="0.05"/>
+    </geometry>
+    <material
+      name="">
+      <color
+        rgba="1 1 1 0.5" />
+    </material>
+  </collision>
+  </link>
+
+
+  <joint
+    name="Lidar_joint"
+    type="fixed">
+    <origin
+      xyz="0.0 0 0.02"
+      rpy="0 -0.087 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="Lidar_link" />
+    <axis
+      xyz="1 0 0" />
+  </joint>
+
+
+  <link name="imu_link"/>
+  <joint
+    name="imu_joint"
+    type="fixed">
+    <origin
+      xyz="0.0 0 0.0"
+      rpy="0 -0.07 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="imu_link" />
+    <axis
+      xyz="1 0 0" />
+  </joint>
+
+  
+
+    <!-- CAMERA -->
+
+  <link
+    name="camera_link">
+    <inertial>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="0.03" />
+      <inertia
+        ixx="1E-5"
+        ixy="-6.30057515429682E-19"
+        ixz="9.52689050201753E-19"
+        iyy="1E-5"
+        iyz="-2.5410988417629E-20"
+        izz="1E-5" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+    <geometry>
+      <box size="0.02 0.02 0.02"/>
+    </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 0.913725490196078 0.0313725490196078 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+          <box size="0.02 0.02 0.02"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="camera_joint" type="fixed">
+    <parent link="base_link" />
+    <child link = "camera_link" />
+    <origin xyz="0.05 0.0 0.01" rpy="0.0 0.0 0.0" />
+  </joint>
+
+  <gazebo reference="camera_link">
+    <sensor type="camera" name="camera1">
+      <update_rate>30.0</update_rate>
+      <camera name="head">
+        <horizontal_fov>1.3962634</horizontal_fov>
+        <image>
+          <width>800</width>
+          <height>800</height>
+          <format>R8G8B8</format>
+        </image>
+        <clip>
+          <near>0.02</near>
+          <far>300</far>
+        </clip>
+        <noise>
+          <type>gaussian</type>
+          <!-- Noise is sampled independently per pixel on each frame.
+               That pixel's noise value is added to each of its color
+               channels, which at that point lie in the range [0,1]. -->
+          <mean>0.0</mean>
+          <stddev>0.007</stddev>
+        </noise>
+      </camera>
+      <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+        <alwaysOn>true</alwaysOn>
+        <updateRate>0.0</updateRate>
+        <cameraName>big_arm/camera1</cameraName>
+        <imageTopicName>image_raw</imageTopicName>
+        <cameraInfoTopicName>camera_info</cameraInfoTopicName>
+        <frameName>camera_link</frameName>
+        <hackBaseline>0.07</hackBaseline>
+        <distortionK1>0.0</distortionK1>
+        <distortionK2>0.0</distortionK2>
+        <distortionK3>0.0</distortionK3>
+        <distortionT1>0.0</distortionT1>
+        <distortionT2>0.0</distortionT2>
+      </plugin>
+    </sensor>
+  </gazebo>
+
+  <!--LIDAR CONFIGURATION-->
+
+  <gazebo reference="Lidar_link">
+    <sensor name="lidar" type="ray">
+      <always_on>true</always_on>
+      <visualize>true</visualize>
+      <update_rate>20</update_rate>
+      <ray>
+        <scan>
+          <horizontal>
+            <samples>120</samples>
+            <resolution>1.000000</resolution>
+            <min_angle>-1.57079</min_angle>
+            <max_angle>1.57079</max_angle>
+          </horizontal>
+        </scan>
+        <range>
+          <min>0.07</min>
+          <max>5.0</max>
+          <resolution>0.015</resolution>
+        </range>
+        <noise>
+          <type>gaussian</type>
+          <mean>0.0</mean>
+          <stddev>0.01</stddev>
+        </noise>
+      </ray>
+      <plugin name="scan" filename="libgazebo_ros_ray_sensor.so">
+        <ros>
+          <remapping>~/out:=laser_scan</remapping>
+        </ros>
+        <output_type>sensor_msgs/LaserScan</output_type>
+        <frame_name>Lidar_link</frame_name>
+      </plugin>
+    </sensor>
+  </gazebo>
+
+  <gazebo reference="Lidar_link">
+    <mu1>0.1</mu1>
+    <mu2>0.1</mu2>
+    <kp>1000000</kp>
+    <kd>1</kd>
+    <material>Gazebo/Yellow</material>
+  </gazebo>
+
+  <!--IMU sensor-->
+
+  <gazebo reference="imu_link">
+    <gravity>true</gravity>
+    <sensor name="imu_sensor" type="imu">
+      <always_on>true</always_on>
+      <update_rate>100</update_rate>
+      <visualize>true</visualize>
+      <topic>imu_data</topic>
+      <plugin filename="libgazebo_ros_imu_sensor.so" name="imu_plugin">
+        <topicName>imu_data</topicName>
+        <bodyName>imu_link</bodyName>
+        <updateRateHZ>10.0</updateRateHZ>
+        <gaussianNoise>0.03</gaussianNoise>
+        <xyzOffset>0 0 0</xyzOffset>
+        <rpyOffset>0 0 0</rpyOffset>
+        <frameName>imu_link</frameName>
+        <initialOrientationAsReference>true</initialOrientationAsReference>
+      </plugin>
+      <pose>0 0 0 0 0 0</pose>
+    </sensor>
+  </gazebo>
+
+
+  <!-- Differential drive controller -->
+
+  <gazebo>
+    <plugin name="two_wheeled_robot_diff_drive" filename="libgazebo_ros_diff_drive.so">
+ 
+      <update_rate>100</update_rate>
+      
+      <!-- wheels -->
+      <left_joint>Rueda_izquierda_joint</left_joint>
+      <right_joint>Rueda_derecha_joint</right_joint>
+ 
+      <!-- kinematics -->
+      <wheel_separation>0.15</wheel_separation>
+      <wheel_diameter>0.06</wheel_diameter>
+ 
+      <!-- limits -->
+      <max_wheel_torque>20</max_wheel_torque>
+      <max_wheel_acceleration>20.0</max_wheel_acceleration>
+ 
+      <!-- Receive velocity commands on this ROS topic -->
+      <command_topic>cmd_vel</command_topic>
+ 
+      <!-- output -->
+      <!-- When false, publish no wheel odometry data to a ROS topic -->
+      <publish_odom>true</publish_odom>
+ 
+      <!-- When true, publish coordinate transform from odom to base_footprint -->
+      <!-- I usually use the robot_localization package to publish this transform -->  
+      <publish_odom_tf>false</publish_odom_tf>
+     
+      <!-- When true, publish coordinate transform from base_link to the wheels -->
+      <!-- The robot_state_publisher package is often used to publish this transform -->  
+      <publish_wheel_tf>true</publish_wheel_tf>
+ 
+      <odometry_topic>odom</odometry_topic>
+      <odometry_frame>odom_link</odometry_frame>
+      <robot_base_frame>base_link_ground</robot_base_frame>
+ 
+      <odometry_source>1</odometry_source>
+      <ros>
+        <remapping>odom:=wheel/odometry</remapping>
+      </ros>
+    </plugin>
+  </gazebo>
+
+  <gazebo>
+    <plugin name="gazebo_ros_joint_state_publisher"
+        filename="libgazebo_ros_joint_state_publisher.so">
+        <update_rate>100</update_rate>
+        <joint_name>Base_castor_joint</joint_name>
+        <joint_name>Rueda_castor_joint</joint_name>
+        <joint_name>camera_joint</joint_name>
+    </plugin>
+  </gazebo>
+
 </robot>
